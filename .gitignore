@@ -1,0 +1,14 @@
+# Blender backups and temporary files
+*.blend1
+*.blend2
+*.blend@
+quit.blend
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Operating system files
+Thumbs.db
+desktop.ini
+.DS_Store
