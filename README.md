@@ -4,26 +4,30 @@ Project files for the **Blender Full Course** by [SECourses](https://www.youtube
 
 Each lecture has its own folder with the Blender files you create in the video, catch-up checkpoints for the building steps, and the rendered images.
 
+**Watch the course on YouTube:** [Blender Full Course: 3D Modeling, Materials, Rendering & Animation (14 Lectures)](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg). Start with Lecture 1: [Your First Day in Blender - Full Course, Lecture 1: Beginner 3D Tutorial](https://www.youtube.com/watch?v=Sk-4ol8IvQc).
+
 ![The Lumen Field Station at the end of Lecture 1, rendered with Cycles](week01/preview.jpg)
 
 ## Lectures
 
-| Lecture | Topic | Files |
-|---|---|---|
-| 1 | Installation, Navigation & Your First 3D Scene | [week01](week01/) |
-| 2 | Mesh Modeling, Topology, Extrude, Inset & Bevel | Planned |
-| 3 | Modifiers, Curves & Modular Modeling | Planned |
-| 4 | Sculpting Terrain, Rocks & Usable Topology | Planned |
-| 5 | Materials, Procedural Shaders & Surface Behavior | Planned |
-| 6 | UV Unwrapping, Texture Painting & Normal Baking | Planned |
-| 7 | Cameras, Lighting, EEVEE, Cycles & Performance | Planned |
-| 8 | Asset Libraries & Geometry Nodes Scattering | Planned |
-| 9 | Procedural Modeling & Audio-Reactive Geometry Nodes | Planned |
-| 10 | Robot Rigging, Weights & Constraints | Planned |
-| 11 | Keyframes, Graph Editor & a 10-Second Animation | Planned |
-| 12 | Cloth Simulation, Caching & Node-Based Physics | Planned |
-| 13 | Compositing, Render Passes & Grease Pencil | Planned |
-| 14 | Video Editing, Export, Packaging & Python Basics | Planned |
+| Lecture | Topic | Video | Files |
+|---|---|---|---|
+| 1 | Installation, Navigation & Your First 3D Scene | [Watch](https://www.youtube.com/watch?v=Sk-4ol8IvQc) | [week01](week01/) |
+| 2 | Mesh Modeling, Topology, Extrude, Inset & Bevel | Planned | Planned |
+| 3 | Modifiers, Curves & Modular Modeling | Planned | Planned |
+| 4 | Sculpting Terrain, Rocks & Usable Topology | Planned | Planned |
+| 5 | Materials, Procedural Shaders & Surface Behavior | Planned | Planned |
+| 6 | UV Unwrapping, Texture Painting & Normal Baking | Planned | Planned |
+| 7 | Cameras, Lighting, EEVEE, Cycles & Performance | Planned | Planned |
+| 8 | Asset Libraries & Geometry Nodes Scattering | Planned | Planned |
+| 9 | Procedural Modeling & Audio-Reactive Geometry Nodes | Planned | Planned |
+| 10 | Robot Rigging, Weights & Constraints | Planned | Planned |
+| 11 | Keyframes, Graph Editor & a 10-Second Animation | Planned | Planned |
+| 12 | Cloth Simulation, Caching & Node-Based Physics | Planned | Planned |
+| 13 | Compositing, Render Passes & Grease Pencil | Planned | Planned |
+| 14 | Video Editing, Export, Packaging & Python Basics | Planned | Planned |
+
+New lectures are added to the playlist and to this table as they are released.
 
 ## How to use the files
 
@@ -41,6 +45,7 @@ The files keep the window layout of the video. To keep your own layout, open the
 
 ## Links
 
+- The course playlist on YouTube: https://www.youtube.com/playlist?list=PLYUs-JVhJLWg
 - Official Blender download: https://www.blender.org/download/
 - Blender manual: https://docs.blender.org/manual/en/latest/
 - SECourses on YouTube: https://www.youtube.com/@SECourses
