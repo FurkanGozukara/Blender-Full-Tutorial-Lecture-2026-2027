@@ -13,7 +13,7 @@ Each lecture has its own folder with the Blender files you create in the video, 
 | Lecture | Topic | Video | Files |
 |---|---|---|---|
 | 1 | Installation, Navigation & Your First 3D Scene | [Watch](https://www.youtube.com/watch?v=Sk-4ol8IvQc) | [week01](week01/) |
-| 2 | Mesh Modeling, Topology, Extrude, Inset & Bevel | Planned | Planned |
+| 2 | Mesh Modeling, Topology, Extrude, Inset & Bevel | Planned | [week02](week02/) |
 | 3 | Modifiers, Curves & Modular Modeling | Planned | Planned |
 | 4 | Sculpting Terrain, Rocks & Usable Topology | Planned | Planned |
 | 5 | Materials, Procedural Shaders & Surface Behavior | Planned | Planned |

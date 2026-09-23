@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600"><rect width="100%" height="100%" fill="#eff3f4"/><style>text{font-family:Segoe UI,sans-serif;fill:#213341} .line{stroke:#334f63;stroke-width:8;fill:none;stroke-linejoin:round} .dim{stroke:#54768b;stroke-width:3;fill:none} .label{font-size:40px} .note{font-size:32px;fill:#54768b}</style><path d="M350 300H1150V1300H350V1200H1050V400H350Z" fill="#c3d1d8" stroke="#334f63" stroke-width="8"/>
+    <path class="dim" d="M350 230V180H1150V230 M350 170V200 M1150 170V200"/>
+    <text x="750" y="145" text-anchor="middle" class="label">0.40 m</text>
+    <text x="720" y="780" text-anchor="middle" class="label">0.35 m cavity</text>
+    <path class="dim" d="M400 830H1000"/>
+    <text x="750" y="1430" text-anchor="middle" class="label">SIDE SECTION · front at left</text>
+    <text x="750" y="1490" text-anchor="middle" class="note">0.05 m back wall · section is explanatory</text></svg>
