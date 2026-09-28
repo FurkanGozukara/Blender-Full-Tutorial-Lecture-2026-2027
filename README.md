@@ -15,7 +15,7 @@ Each lecture has its own folder with the Blender files you create in the video, 
 | 1 | Installation, Navigation & Your First 3D Scene | [Watch](https://www.youtube.com/watch?v=Sk-4ol8IvQc) | [week01](week01/) |
 | 2 | Mesh Modeling, Topology, Extrude, Inset & Bevel | Planned | [week02](week02/) |
 | 3 | Modifiers, Curves & Modular Modeling | Planned | [week03](week03/) |
-| 4 | Sculpting Terrain, Rocks & Usable Topology | Planned | Planned |
+| 4 | Sculpting Terrain, Rocks & Usable Topology | Planned | [week04](week04/) |
 | 5 | Materials, Procedural Shaders & Surface Behavior | Planned | Planned |
 | 6 | UV Unwrapping, Texture Painting & Normal Baking | Planned | Planned |
 | 7 | Cameras, Lighting, EEVEE, Cycles & Performance | Planned | Planned |
