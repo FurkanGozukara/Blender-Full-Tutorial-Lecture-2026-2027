@@ -2,11 +2,11 @@
 
 Continue the Lumen Field Station from Lecture 2 and build geometry that remains easy to revise. Add symmetry, controlled edge treatment, a fitted cover, repeated brackets, an editable cable and text, and separate courier parts. Finish with an adjustable Boolean socket and a reopened station checkpoint.
 
-![The editable Lumen Field Station](preview.jpg)
+[![Watch Lecture 3 on YouTube](https://img.youtube.com/vi/0B55Vf_1PEw/maxresdefault.jpg)](https://www.youtube.com/watch?v=0B55Vf_1PEw)
 
-**Video:** planned · **Lecture length:** 1:29:33 · [full course playlist](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg) · [course overview](../README.md)
+**Watch on YouTube:** [Blender Full Course 3: Build a Courier with Separate Parts and Useful Pivots](https://www.youtube.com/watch?v=0B55Vf_1PEw) (1:29:33) · [the full course playlist](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg) · [course overview and all 14 lectures](../README.md)
 
-The times below refer to the completed lecture. Video links will be added when it is public.
+Every time in this README opens the video at that moment.
 
 ## Start here
 
@@ -20,14 +20,14 @@ Recorded with **Blender 5.2.2 LTS**. Keep the downloaded folder structure togeth
 
 | File | Contents | Lecture time |
 |---|---|---|
-| [`extras/w03_inputs.blend`](extras/w03_inputs.blend) | Lecture 2 station plus the six supplied comparison meshes; the starting state of this lecture. | 0:27 |
-| [`extras/create_week03_studies.py`](extras/create_week03_studies.py) | Optional script that recreates the six comparison meshes from the Lecture 2 station. | 56:21 |
-| [`extras/README.md`](extras/README.md) | Names of the comparison meshes, the tools they use, how they were created and how to hide or show them. | 56:21 |
-| [`LumenCourse/blend/w03_modeling_v001.blend`](LumenCourse/blend/w03_modeling_v001.blend) | Working file saved at the start of the lecture, before the modeling changes. | 2:00 |
-| [`LumenCourse/blend/w03_station_v001.blend`](LumenCourse/blend/w03_station_v001.blend) | Reopened, revised and saved station for Lecture 4. | 1:29:24 — final save |
-| [`LumenCourse/blend/w03_recovery.blend`](LumenCourse/blend/w03_recovery.blend) | Saved recovery copy, including comparison geometry and original shell backups. | 1:27:28 |
+| [`extras/w03_inputs.blend`](extras/w03_inputs.blend) | Lecture 2 station plus the six supplied comparison meshes; the starting state of this lecture. | [0:27](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=27s) |
+| [`extras/create_week03_studies.py`](extras/create_week03_studies.py) | Optional script that recreates the six comparison meshes from the Lecture 2 station. | [56:21](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=3381s) |
+| [`extras/README.md`](extras/README.md) | Names of the comparison meshes, the tools they use, how they were created and how to hide or show them. | [56:21](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=3381s) |
+| [`LumenCourse/blend/w03_modeling_v001.blend`](LumenCourse/blend/w03_modeling_v001.blend) | Working file saved at the start of the lecture, before the modeling changes. | [2:00](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=120s) |
+| [`LumenCourse/blend/w03_station_v001.blend`](LumenCourse/blend/w03_station_v001.blend) | Reopened, revised and saved station for Lecture 4. | [1:29:24](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=5364s) — final save |
+| [`LumenCourse/blend/w03_recovery.blend`](LumenCourse/blend/w03_recovery.blend) | Saved recovery copy, including comparison geometry and original shell backups. | [1:27:28](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=5248s) |
 | [`preview.jpg`](preview.jpg) | Untextured render of the completed station. | Companion render, shown in the closing chapter |
-| [`extras/courier_modifier_stack.png`](extras/courier_modifier_stack.png) | Viewport image of the final editable courier-body modifier stack. | 1:25:30 |
+| [`extras/courier_modifier_stack.png`](extras/courier_modifier_stack.png) | Viewport image of the final editable courier-body modifier stack. | [1:25:30](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=5130s) |
 | [`modeling_reference.md`](modeling_reference.md) | Operations, inspection checks and exact final modifier/curve settings | All chapters |
 
 ## Catch-up checkpoints
@@ -36,13 +36,13 @@ Open a checkpoint, save your own copy and continue at the matching chapter.
 
 | Checkpoint | Scene state | Continue at |
 |---|---|---|
-| [`w03_checkpoint_01_modifier_order.blend`](checkpoints/w03_checkpoint_01_modifier_order.blend) | Mirror, edge treatment, shading comparison and stack order. | 15:14 |
-| [`w03_checkpoint_02_repetition.blend`](checkpoints/w03_checkpoint_02_repetition.blend) | Solidify, current Array, fixed-pivot transform order and shared mesh data. | 30:46 |
-| [`w03_checkpoint_03_subdivision.blend`](checkpoints/w03_checkpoint_03_subdivision.blend) | Control mesh, support topology, creases, n-gon and pole comparisons. | 37:02 |
-| [`w03_checkpoint_04_cable.blend`](checkpoints/w03_checkpoint_04_cable.blend) | Editable curve points, handles, bevel depth, resolution and routing. | 43:30 |
-| [`w03_checkpoint_05_text_and_deformation.blend`](checkpoints/w03_checkpoint_05_text_and_deformation.blend) | Snapping controls, editable text and separate deformation study. | 56:21 |
-| [`w03_checkpoint_06_courier_assembly.blend`](checkpoints/w03_checkpoint_06_courier_assembly.blend) | Separate rigid parts, contact, clearance and individual-origin pivot comparison. | 1:13:30 |
-| [`w03_checkpoint_07_boolean.blend`](checkpoints/w03_checkpoint_07_boolean.blend) | Editable cutter, Difference and downstream Bevel. | 1:21:33 |
+| [`w03_checkpoint_01_modifier_order.blend`](checkpoints/w03_checkpoint_01_modifier_order.blend) | Mirror, edge treatment, shading comparison and stack order. | [15:14](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=914s) |
+| [`w03_checkpoint_02_repetition.blend`](checkpoints/w03_checkpoint_02_repetition.blend) | Solidify, current Array, fixed-pivot transform order and shared mesh data. | [30:46](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=1846s) |
+| [`w03_checkpoint_03_subdivision.blend`](checkpoints/w03_checkpoint_03_subdivision.blend) | Control mesh, support topology, creases, n-gon and pole comparisons. | [37:02](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=2222s) |
+| [`w03_checkpoint_04_cable.blend`](checkpoints/w03_checkpoint_04_cable.blend) | Editable curve points, handles, bevel depth, resolution and routing. | [43:30](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=2610s) |
+| [`w03_checkpoint_05_text_and_deformation.blend`](checkpoints/w03_checkpoint_05_text_and_deformation.blend) | Snapping controls, editable text and separate deformation study. | [56:21](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=3381s) |
+| [`w03_checkpoint_06_courier_assembly.blend`](checkpoints/w03_checkpoint_06_courier_assembly.blend) | Separate rigid parts, contact, clearance and individual-origin pivot comparison. | [1:13:30](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=4410s) |
+| [`w03_checkpoint_07_boolean.blend`](checkpoints/w03_checkpoint_07_boolean.blend) | Editable cutter, Difference and downstream Bevel. | [1:21:33](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=4893s) |
 
 ## Construction choices
 
@@ -117,32 +117,32 @@ Saved render engine: **BLENDER_EEVEE**. Output: **3840 × 2160 at 100%**. The su
 <details>
 <summary>All 26 chapters</summary>
 
-- 0:00 Revise the courier without changing the platform
-- 2:16 Place the origin before building symmetry
-- 5:12 Keep a source half and close the mirror seam
-- 7:28 Distinguish object movement from mesh movement
-- 8:56 Give a bevel a predictable physical size
-- 10:54 Separate smooth shading from actual geometry
-- 13:12 Read modifier order from top to bottom
-- 15:14 Give an open cover adjustable thickness
-- 18:41 Repeat a bracket with the current Array modifier
-- 21:52 Explore a circular arrangement on a separate copy
-- 23:24 Predict transform order around a fixed pivot
-- 27:41 Choose independent or linked mesh duplicates
-- 30:46 Inspect subdivision before adding more topology
-- 33:16 Compare creases, flat faces and uneven poles
-- 37:02 Save the editable construction and clear the view
-- 38:28 Route a cable with editable curve points
-- 43:30 Choose a snapping base and target before placement
-- 46:55 Use increment snapping and understand the Ctrl toggle
-- 48:42 Keep the station label as editable text
-- 52:16 Compare proportional editing with a deformation modifier
-- 56:21 Shape loops with Blender native mesh tools
-- 1:00:24 Build separate courier parts with useful clearance
-- 1:11:05 Choose a pivot for a multi-part transform
-- 1:13:30 Build an editable Boolean socket for the cable
-- 1:21:33 Predict and test a dimensional revision
-- 1:25:30 Inspect contributions and reopen the editable result
+- [0:00](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=0s) Revise the courier without changing the platform
+- [2:16](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=136s) Place the origin before building symmetry
+- [5:12](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=312s) Keep a source half and close the mirror seam
+- [7:28](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=448s) Distinguish object movement from mesh movement
+- [8:56](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=536s) Give a bevel a predictable physical size
+- [10:54](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=654s) Separate smooth shading from actual geometry
+- [13:12](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=792s) Read modifier order from top to bottom
+- [15:14](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=914s) Give an open cover adjustable thickness
+- [18:41](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=1121s) Repeat a bracket with the current Array modifier
+- [21:52](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=1312s) Explore a circular arrangement on a separate copy
+- [23:24](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=1404s) Predict transform order around a fixed pivot
+- [27:41](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=1661s) Choose independent or linked mesh duplicates
+- [30:46](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=1846s) Inspect subdivision before adding more topology
+- [33:16](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=1996s) Compare creases, flat faces and uneven poles
+- [37:02](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=2222s) Save the editable construction and clear the view
+- [38:28](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=2308s) Route a cable with editable curve points
+- [43:30](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=2610s) Choose a snapping base and target before placement
+- [46:55](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=2815s) Use increment snapping and understand the Ctrl toggle
+- [48:42](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=2922s) Keep the station label as editable text
+- [52:16](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=3136s) Compare proportional editing with a deformation modifier
+- [56:21](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=3381s) Shape loops with Blender native mesh tools
+- [1:00:24](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=3624s) Build separate courier parts with useful clearance
+- [1:11:05](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=4265s) Choose a pivot for a multi-part transform
+- [1:13:30](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=4410s) Build an editable Boolean socket for the cable
+- [1:21:33](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=4893s) Predict and test a dimensional revision
+- [1:25:30](https://www.youtube.com/watch?v=0B55Vf_1PEw&t=5130s) Inspect contributions and reopen the editable result
 
 </details>
 

@@ -2,11 +2,11 @@
 
 Refine the Lumen Field Station from Lecture 1: recess the platform, shape the courier, build a hollow equipment housing, then reuse the same modeling decisions on a docking tray and architectural niche. Learn to select and inspect geometry, preserve wall thickness, and choose topology for the next edit.
 
-![The modeled Lumen Field Station](preview.jpg)
+[![Watch Lecture 2 on YouTube](https://img.youtube.com/vi/Qr9B8rCGDHU/maxresdefault.jpg)](https://www.youtube.com/watch?v=Qr9B8rCGDHU)
 
-**Video:** planned · **Lecture length:** 58:25 · [full course playlist](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg) · [course overview](../README.md)
+**Watch on YouTube:** [Build the Lumen Field Station - Blender Mesh Modeling Tutorial](https://www.youtube.com/watch?v=Qr9B8rCGDHU) (58:25) · [the full course playlist](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg) · [course overview and all 14 lectures](../README.md)
 
-The times below refer to the completed lecture. Video links will be added when it is public.
+Every time in this README opens the video at that moment.
 
 ## Files
 
@@ -14,11 +14,11 @@ Open the files with Blender 5.2 or newer. Start from the [finished Lecture 1 sta
 
 | File | What it contains | Lecture time |
 |---|---|---|
-| [`LumenCourse/blend/w02_modeling_v001.blend`](LumenCourse/blend/w02_modeling_v001.blend) | Working version at its last demonstrated save, after the tray and architectural niche | 2:25 created; 49:29 saved state |
-| [`LumenCourse/blend/w02_station_v001.blend`](LumenCourse/blend/w02_station_v001.blend) | Completed modeling baseline for Lecture 3 | 57:39 final save |
+| [`LumenCourse/blend/w02_modeling_v001.blend`](LumenCourse/blend/w02_modeling_v001.blend) | Working version at its last demonstrated save, after the tray and architectural niche | [2:25](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=145s) created; [49:29](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=2969s) saved state |
+| [`LumenCourse/blend/w02_station_v001.blend`](LumenCourse/blend/w02_station_v001.blend) | Completed modeling baseline for Lecture 3 | [57:39](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=3459s) final save |
 | [`checkpoints/`](checkpoints/) | Six catch-up scenes listed below | |
-| [`LumenCourse/reference/housing_front.png`](LumenCourse/reference/housing_front.png) | The image dependency used by the housing guide | 4:07 import |
-| [`extras/reference/`](extras/reference/) | Front, side-section and three-quarter diagrams in PNG and editable SVG | 2:41 |
+| [`LumenCourse/reference/housing_front.png`](LumenCourse/reference/housing_front.png) | The image dependency used by the housing guide | [4:07](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=247s) import |
+| [`extras/reference/`](extras/reference/) | Front, side-section and three-quarter diagrams in PNG and editable SVG | [2:41](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=161s) |
 | [`extras/README.md`](extras/README.md) | Reference licenses and portable recreation instructions | |
 | [`modeling_reference.md`](modeling_reference.md) | Shortcuts, dimensions and diagnostic interpretation | |
 | [`LumenCourse/renders/w02_station_preview.png`](LumenCourse/renders/w02_station_preview.png) | A 3840 × 2160 companion render of the final modeled station | Companion image |
@@ -31,12 +31,12 @@ Open a checkpoint, use **File > Save As** to save your own working copy, and con
 
 | Checkpoint | Scene state | Continue at |
 |---|---|---|
-| [`w02_checkpoint_01_selection.blend`](checkpoints/w02_checkpoint_01_selection.blend) | Component selection, Object/Edit Mode and applied scale practice. | 13:09 — Inset the platform |
-| [`w02_checkpoint_02_platform.blend`](checkpoints/w02_checkpoint_02_platform.blend) | Recessed platform with its retained floor and stepped central pad. | 17:31 — Shape the courier |
-| [`w02_checkpoint_03_courier.blend`](checkpoints/w02_checkpoint_03_courier.blend) | Shoulder loop, sloped front and selected-edge bevel; earlier courier backups retained. | 24:14 — Compare axis constraints |
-| [`w02_checkpoint_04_housing.blend`](checkpoints/w02_checkpoint_04_housing.blend) | Connected housing, separate lid/panel and the bridge study; modeled station saved. | 35:19 — Inspect face orientation |
-| [`w02_checkpoint_05_diagnostics.blend`](checkpoints/w02_checkpoint_05_diagnostics.blend) | Orientation, seam and closed-shell diagnostics completed. | 43:54 — Build the docking tray |
-| [`w02_checkpoint_06_transfer.blend`](checkpoints/w02_checkpoint_06_transfer.blend) | Tray, architectural niche, Delete/Dissolve and isolation studies completed. | 54:06 — Inspect the completed forms |
+| [`w02_checkpoint_01_selection.blend`](checkpoints/w02_checkpoint_01_selection.blend) | Component selection, Object/Edit Mode and applied scale practice. | [13:09](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=789s) — Inset the platform |
+| [`w02_checkpoint_02_platform.blend`](checkpoints/w02_checkpoint_02_platform.blend) | Recessed platform with its retained floor and stepped central pad. | [17:31](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=1051s) — Shape the courier |
+| [`w02_checkpoint_03_courier.blend`](checkpoints/w02_checkpoint_03_courier.blend) | Shoulder loop, sloped front and selected-edge bevel; earlier courier backups retained. | [24:14](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=1454s) — Compare axis constraints |
+| [`w02_checkpoint_04_housing.blend`](checkpoints/w02_checkpoint_04_housing.blend) | Connected housing, separate lid/panel and the bridge study; modeled station saved. | [35:19](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=2119s) — Inspect face orientation |
+| [`w02_checkpoint_05_diagnostics.blend`](checkpoints/w02_checkpoint_05_diagnostics.blend) | Orientation, seam and closed-shell diagnostics completed. | [43:54](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=2634s) — Build the docking tray |
+| [`w02_checkpoint_06_transfer.blend`](checkpoints/w02_checkpoint_06_transfer.blend) | Tray, architectural niche, Delete/Dissolve and isolation studies completed. | [54:06](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=3246s) — Inspect the completed forms |
 
 ## Check your scene
 
@@ -101,30 +101,30 @@ The saved scene uses EEVEE with 3840 × 2160 output at 100%. The companion previ
 <details>
 <summary>All 24 chapters</summary>
 
-- 0:00 Read the starting station before changing its geometry
-- 2:41 Read an original reference and align its front view
-- 5:55 Select mesh components and distinguish the active element
-- 9:24 Compare object coordinates with mesh coordinates and scale
-- 13:09 Inset a platform rim and extrude its recessed floor
-- 15:28 Build a mounting pad and repeat a known extrusion
-- 17:31 Place a shoulder loop and shape the courier front
-- 20:32 Compare surface normals with world transform directions
-- 22:11 Bevel selected edges and preserve a pre-bevel copy
-- 24:14 Read the single-axis and repeated-axis constraint cycle
-- 25:31 Build the housing body and create a square cavity
-- 28:05 Widen the opening while preserving the housing walls
-- 31:25 Bridge matching loops and compare it with filling
-- 34:21 Save the modeled station and reestablish a useful view
-- 35:19 Inspect solid boundaries and surface orientation
-- 37:44 Merge an intentional seam and inspect manifold boundaries
-- 42:10 Choose topology from the shape and its next edit
-- 43:54 Reuse inset and extrusion to build a second docking tray
-- 46:37 Transfer the same construction to an architectural niche
-- 49:48 Compare Delete with Dissolve on a clean disposable strip
-- 52:33 Reach connected geometry with Hide and Local View
-- 54:06 Inspect the completed forms from above and below
-- 55:25 Preview an adjustable Bevel modifier
-- 56:12 Adjust the preview and save the final station
+- [0:00](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=0s) Read the starting station before changing its geometry
+- [2:41](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=161s) Read an original reference and align its front view
+- [5:55](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=355s) Select mesh components and distinguish the active element
+- [9:24](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=564s) Compare object coordinates with mesh coordinates and scale
+- [13:09](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=789s) Inset a platform rim and extrude its recessed floor
+- [15:28](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=928s) Build a mounting pad and repeat a known extrusion
+- [17:31](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=1051s) Place a shoulder loop and shape the courier front
+- [20:32](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=1232s) Compare surface normals with world transform directions
+- [22:11](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=1331s) Bevel selected edges and preserve a pre-bevel copy
+- [24:14](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=1454s) Read the single-axis and repeated-axis constraint cycle
+- [25:31](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=1531s) Build the housing body and create a square cavity
+- [28:05](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=1685s) Widen the opening while preserving the housing walls
+- [31:25](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=1885s) Bridge matching loops and compare it with filling
+- [34:21](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=2061s) Save the modeled station and reestablish a useful view
+- [35:19](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=2119s) Inspect solid boundaries and surface orientation
+- [37:44](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=2264s) Merge an intentional seam and inspect manifold boundaries
+- [42:10](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=2530s) Choose topology from the shape and its next edit
+- [43:54](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=2634s) Reuse inset and extrusion to build a second docking tray
+- [46:37](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=2797s) Transfer the same construction to an architectural niche
+- [49:48](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=2988s) Compare Delete with Dissolve on a clean disposable strip
+- [52:33](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=3153s) Reach connected geometry with Hide and Local View
+- [54:06](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=3246s) Inspect the completed forms from above and below
+- [55:25](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=3325s) Preview an adjustable Bevel modifier
+- [56:12](https://www.youtube.com/watch?v=Qr9B8rCGDHU&t=3372s) Adjust the preview and save the final station
 
 </details>
 

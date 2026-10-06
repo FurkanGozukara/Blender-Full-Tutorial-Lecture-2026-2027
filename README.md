@@ -4,7 +4,7 @@ Project files for the **Blender Full Course** by [SECourses](https://www.youtube
 
 Each lecture has its own folder with the Blender files you create in the video, catch-up checkpoints for the building steps, and the rendered images.
 
-**Watch the course on YouTube:** [Blender Full Course: 3D Modeling, Materials, Rendering & Animation (14 Lectures)](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg). Start with Lecture 1: [Your First Day in Blender - Full Course, Lecture 1: Beginner 3D Tutorial](https://www.youtube.com/watch?v=Sk-4ol8IvQc).
+**Watch the course on YouTube:** [Blender Full Course: 3D Modeling, Materials, Rendering & Animation (14 Lectures)](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg). Start with Lecture 1: [Blender Full Course - Lecture 1: Beginner Tutorial for Modeling, Materials and Rendering](https://www.youtube.com/watch?v=Sk-4ol8IvQc).
 
 ![The Lumen Field Station at the end of Lecture 1, rendered with Cycles](week01/preview.jpg)
 
@@ -13,9 +13,9 @@ Each lecture has its own folder with the Blender files you create in the video, 
 | Lecture | Topic | Video | Files |
 |---|---|---|---|
 | 1 | Installation, Navigation & Your First 3D Scene | [Watch](https://www.youtube.com/watch?v=Sk-4ol8IvQc) | [week01](week01/) |
-| 2 | Mesh Modeling, Topology, Extrude, Inset & Bevel | Planned | [week02](week02/) |
-| 3 | Modifiers, Curves & Modular Modeling | Planned | [week03](week03/) |
-| 4 | Sculpting Terrain, Rocks & Usable Topology | Planned | [week04](week04/) |
+| 2 | Mesh Modeling, Topology, Extrude, Inset & Bevel | [Watch](https://www.youtube.com/watch?v=Qr9B8rCGDHU) | [week02](week02/) |
+| 3 | Modifiers, Booleans, Curves, Text & Modular Modeling | [Watch](https://www.youtube.com/watch?v=0B55Vf_1PEw) | [week03](week03/) |
+| 4 | Sculpting, Organic Form & Retopology | Planned | [week04](week04/) |
 | 5 | Materials, Procedural Shaders & Surface Behavior | Planned | Planned |
 | 6 | UV Unwrapping, Texture Painting & Normal Baking | Planned | Planned |
 | 7 | Cameras, Lighting, EEVEE, Cycles & Performance | Planned | Planned |

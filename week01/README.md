@@ -4,7 +4,7 @@ Start Blender from zero and build your first 3D scene. You install Blender 5.2.2
 
 [![Watch Lecture 1 on YouTube](https://img.youtube.com/vi/Sk-4ol8IvQc/maxresdefault.jpg)](https://www.youtube.com/watch?v=Sk-4ol8IvQc)
 
-**Watch on YouTube:** [Your First Day in Blender - Full Course, Lecture 1: Beginner 3D Tutorial](https://www.youtube.com/watch?v=Sk-4ol8IvQc) (48:07) · [the full course playlist](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg) · [course overview and all 14 lectures](../README.md)
+**Watch on YouTube:** [Blender Full Course - Lecture 1: Beginner Tutorial for Modeling, Materials and Rendering](https://www.youtube.com/watch?v=Sk-4ol8IvQc) (48:07) · [the full course playlist](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg) · [course overview and all 14 lectures](../README.md)
 
 Every time in this README opens the video at that moment.
 
