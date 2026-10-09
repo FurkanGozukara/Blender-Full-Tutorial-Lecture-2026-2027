@@ -16,7 +16,7 @@ Each lecture has its own folder with the Blender files you create in the video, 
 | 2 | Mesh Modeling, Topology, Extrude, Inset & Bevel | [Watch](https://www.youtube.com/watch?v=Qr9B8rCGDHU) | [week02](week02/) |
 | 3 | Modifiers, Booleans, Curves, Text & Modular Modeling | [Watch](https://www.youtube.com/watch?v=0B55Vf_1PEw) | [week03](week03/) |
 | 4 | Sculpting, Organic Form & Retopology | Planned | [week04](week04/) |
-| 5 | Materials, Procedural Shaders & Surface Behavior | Planned | Planned |
+| 5 | Materials, Procedural Shaders & Surface Behavior | Planned | [week05](week05/) |
 | 6 | UV Unwrapping, Texture Painting & Normal Baking | Planned | Planned |
 | 7 | Cameras, Lighting, EEVEE, Cycles & Performance | Planned | Planned |
 | 8 | Asset Libraries & Geometry Nodes Scattering | Planned | Planned |
