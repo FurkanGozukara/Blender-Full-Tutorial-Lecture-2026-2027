@@ -1,0 +1,4434 @@
+{
+ "file": "w06_station_final.blend",
+ "blender": [
+  5,
+  2,
+  2
+ ],
+ "scene": {
+  "engine": "CYCLES",
+  "resolution": [
+   3840,
+   2160,
+   100
+  ],
+  "camera": "Camera",
+  "view_transform": "AgX",
+  "look": "None",
+  "exposure": 0.0,
+  "gamma": 1.0,
+  "display_device": "sRGB",
+  "cycles_device": "CPU",
+  "cycles_samples": 16,
+  "cycles_preview_samples": 16,
+  "bake_type": "DIFFUSE",
+  "frame": 1,
+  "unit_system": "METRIC",
+  "unit_scale": 1.0,
+  "custom": {
+   "Viewing baseline": "sRGB display | AgX | None | Exposure 0 | Gamma 1",
+   "Prepared assets": "Original SECourses teaching samples; learner node constructions begin from simple materials."
+  }
+ },
+ "bake": {
+  "use_selected_to_active": false,
+  "cage_extrusion": 0.03500000014901161,
+  "max_ray_distance": 0.10000000149011612,
+  "margin": 16,
+  "margin_type": "ADJACENT_FACES",
+  "normal_space": "TANGENT",
+  "target": "IMAGE_TEXTURES",
+  "use_clear": true,
+  "use_pass_direct": false,
+  "use_pass_indirect": false,
+  "use_pass_color": true,
+  "normal_r": "POS_X",
+  "normal_g": "POS_Y",
+  "normal_b": "POS_Z"
+ },
+ "collections": [
+  {
+   "name": "BACKUP",
+   "objects": 3,
+   "hide_render": true,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "BAKE_SOURCE",
+   "objects": 2,
+   "hide_render": false,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "BAKE_TARGET",
+   "objects": 3,
+   "hide_render": false,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "CAMERAS_LIGHTS",
+   "objects": 12,
+   "hide_render": false,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "Collection",
+   "objects": 0,
+   "hide_render": false,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "COLLECTION_COURIER",
+   "objects": 9,
+   "hide_render": false,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "COLLECTION_GUIDES",
+   "objects": 7,
+   "hide_render": false,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "CONSTRUCTION_CUTTERS",
+   "objects": 1,
+   "hide_render": false,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "COURIER",
+   "objects": 1,
+   "hide_render": false,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "ENVIRONMENT",
+   "objects": 1,
+   "hide_render": false,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "REFERENCE",
+   "objects": 1,
+   "hide_render": false,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "STATION",
+   "objects": 8,
+   "hide_render": false,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "STUDIES",
+   "objects": 27,
+   "hide_render": true,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "TEXTURE_VARIATIONS",
+   "objects": 4,
+   "hide_render": false,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "W04_COLOR",
+   "objects": 1,
+   "hide_render": true,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "W04_FORM_REFERENCE",
+   "objects": 3,
+   "hide_render": true,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "W04_HEAD",
+   "objects": 4,
+   "hide_render": true,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "W04_INPUTS",
+   "objects": 3,
+   "hide_render": false,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "W04_PRIMITIVES",
+   "objects": 1,
+   "hide_render": true,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "W04_PROJECT",
+   "objects": 2,
+   "hide_render": true,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "W04_RESOLUTION",
+   "objects": 4,
+   "hide_render": true,
+   "hide_viewport": false,
+   "children": []
+  },
+  {
+   "name": "W04_RETOPO",
+   "objects": 1,
+   "hide_render": true,
+   "hide_viewport": false,
+   "children": []
+  }
+ ],
+ "objects": [
+  {
+   "name": "Area",
+   "type": "LIGHT",
+   "collections": [
+    "CAMERAS_LIGHTS"
+   ],
+   "location": [
+    2.0,
+    -2.0,
+    3.0
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "light": "AREA",
+   "energy": 500.0
+  },
+  {
+   "name": "BACKUP_Courier_PreBevel",
+   "type": "MESH",
+   "collections": [
+    "BACKUP"
+   ],
+   "location": [
+    0.8,
+    0.0,
+    0.475
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.55,
+    0.55,
+    0.55
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Courier"
+   ],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 12,
+   "faces": 10,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "BACKUP_Courier_PreEdit",
+   "type": "MESH",
+   "collections": [
+    "BACKUP"
+   ],
+   "location": [
+    0.8,
+    0.0,
+    0.475
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.55,
+    0.55,
+    0.55
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Courier"
+   ],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "BACKUP_rock_high_W05",
+   "type": "MESH",
+   "collections": [
+    "BAKE_SOURCE"
+   ],
+   "location": [
+    1.55,
+    -0.55,
+    0.36
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.7789,
+    0.6604,
+    0.86
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Stone"
+   ],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 2562,
+   "faces": 5120,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "BACKUP_rock_low_W06",
+   "type": "MESH",
+   "collections": [
+    "BAKE_TARGET"
+   ],
+   "location": [
+    1.55,
+    -0.55,
+    0.36
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.7789,
+    0.6631,
+    0.86
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Stone"
+   ],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 642,
+   "faces": 1280,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "BAKE_rock_high",
+   "type": "MESH",
+   "collections": [
+    "BAKE_SOURCE"
+   ],
+   "location": [
+    1.55,
+    -0.55,
+    0.36
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.7793,
+    0.6648,
+    0.8668
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_PreparedHighGeometry"
+   ],
+   "modifiers": [
+    "Prepared surface subdivision (SUBSURF)",
+    "Prepared fine rock relief (DISPLACE)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 2562,
+   "faces": 5120,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "BAKE_rock_low",
+   "type": "MESH",
+   "collections": [
+    "BAKE_TARGET"
+   ],
+   "location": [
+    1.55,
+    -0.55,
+    0.36
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.7789,
+    0.6631,
+    0.86
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Rock_Export"
+   ],
+   "modifiers": [
+    "Triangulate (TRIANGULATE)"
+   ],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 642,
+   "faces": 1280,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "Camera",
+   "type": "CAMERA",
+   "collections": [
+    "CAMERAS_LIGHTS"
+   ],
+   "location": [
+    -3.244,
+    -9.4416,
+    5.7606
+   ],
+   "rotation_deg": [
+    64.36,
+    -0.0,
+    -20.09
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "lens": 35.0
+  },
+  {
+   "name": "CR_arm_L",
+   "type": "MESH",
+   "collections": [
+    "COLLECTION_COURIER"
+   ],
+   "location": [
+    0.44,
+    0.0,
+    0.88
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.1,
+    0.14,
+    0.3
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_arm_L_Revision",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -2.115,
+    0.0,
+    0.88
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.1,
+    0.14,
+    0.3
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_arm_R",
+   "type": "MESH",
+   "collections": [
+    "COLLECTION_COURIER"
+   ],
+   "location": [
+    1.16,
+    0.0,
+    0.88
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.1,
+    0.14,
+    0.3
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_arm_R_Revision",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -1.285,
+    0.0,
+    0.88
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.1,
+    0.14,
+    0.3
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_axle",
+   "type": "MESH",
+   "collections": [
+    "COLLECTION_COURIER"
+   ],
+   "location": [
+    0.8,
+    0.0,
+    0.3
+   ],
+   "rotation_deg": [
+    -0.0,
+    90.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.07,
+    0.07,
+    0.5
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 64,
+   "faces": 34,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_axle_Revision",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -1.7,
+    0.0,
+    0.3
+   ],
+   "rotation_deg": [
+    -0.0,
+    90.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.07,
+    0.07,
+    0.5
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 64,
+   "faces": 34,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_body",
+   "type": "MESH",
+   "collections": [
+    "COLLECTION_COURIER"
+   ],
+   "location": [
+    0.8,
+    0.0,
+    0.695
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.55,
+    0.55,
+    0.55
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Courier"
+   ],
+   "modifiers": [
+    "Mirror (MIRROR)",
+    "Bevel (BEVEL)",
+    "Smooth by Angle (NODES)"
+   ],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 12,
+   "faces": 8,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_body_Revision",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -1.7,
+    0.0,
+    0.695
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.605,
+    0.55,
+    0.55
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Courier"
+   ],
+   "modifiers": [
+    "Mirror (MIRROR)",
+    "Bevel (BEVEL)",
+    "Smooth by Angle (NODES)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 12,
+   "faces": 8,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_chassis",
+   "type": "MESH",
+   "collections": [
+    "COLLECTION_COURIER"
+   ],
+   "location": [
+    0.8,
+    0.0,
+    0.4
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.2,
+    0.1,
+    0.2
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_chassis_Revision",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -1.7,
+    0.0,
+    0.4
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.2,
+    0.1,
+    0.2
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_foot_L",
+   "type": "MESH",
+   "collections": [
+    "COLLECTION_COURIER"
+   ],
+   "location": [
+    0.62,
+    0.0,
+    0.3
+   ],
+   "rotation_deg": [
+    -0.0,
+    90.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.2,
+    0.2,
+    0.12
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Rubber"
+   ],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 64,
+   "faces": 34,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_foot_L_Revision",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -1.88,
+    0.0,
+    0.3
+   ],
+   "rotation_deg": [
+    -0.0,
+    90.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.2,
+    0.2,
+    0.12
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 64,
+   "faces": 34,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_foot_R",
+   "type": "MESH",
+   "collections": [
+    "COLLECTION_COURIER"
+   ],
+   "location": [
+    0.98,
+    0.0,
+    0.3
+   ],
+   "rotation_deg": [
+    -0.0,
+    90.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.2,
+    0.2,
+    0.12
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Rubber"
+   ],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 64,
+   "faces": 34,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_foot_R_Revision",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -1.52,
+    0.0,
+    0.3
+   ],
+   "rotation_deg": [
+    -0.0,
+    90.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.2,
+    0.2,
+    0.12
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 64,
+   "faces": 34,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_head",
+   "type": "MESH",
+   "collections": [
+    "COLLECTION_COURIER"
+   ],
+   "location": [
+    0.8,
+    0.0,
+    1.12
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.34,
+    0.3,
+    0.18
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [
+    "Bevel (BEVEL)",
+    "Smooth by Angle (NODES)"
+   ],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_head_Revision",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -1.7,
+    0.0,
+    1.12
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.34,
+    0.3,
+    0.18
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [
+    "Bevel (BEVEL)",
+    "Smooth by Angle (NODES)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_neck",
+   "type": "MESH",
+   "collections": [
+    "COLLECTION_COURIER"
+   ],
+   "location": [
+    0.8,
+    0.0,
+    0.99
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.11,
+    0.11,
+    0.08
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 64,
+   "faces": 34,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CR_neck_Revision",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -1.7,
+    0.0,
+    0.99
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.11,
+    0.11,
+    0.08
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 64,
+   "faces": 34,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "CUT_HousingSocket",
+   "type": "MESH",
+   "collections": [
+    "CONSTRUCTION_CUTTERS"
+   ],
+   "location": [
+    0.22,
+    -0.7,
+    0.5
+   ],
+   "rotation_deg": [
+    -0.0,
+    90.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.14,
+    0.14,
+    0.16
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 16,
+   "faces": 10,
+   "uv_layers": [],
+   "seams": 0
+  },
+  {
+   "name": "DECAL_Housing",
+   "type": "MESH",
+   "collections": [
+    "TEXTURE_VARIATIONS"
+   ],
+   "location": [
+    2.0,
+    -0.75,
+    0.45
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.6,
+    0.4,
+    0.5
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_PaintedShell"
+   ],
+   "modifiers": [
+    "Boolean (BOOLEAN)",
+    "Bevel (BEVEL)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 16,
+   "faces": 14,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "DECAL_Plane",
+   "type": "MESH",
+   "collections": [
+    "TEXTURE_VARIATIONS"
+   ],
+   "location": [
+    2.0,
+    -0.97,
+    0.45
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.44,
+    0.0,
+    0.34
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_StationDecal"
+   ],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 4,
+   "faces": 1,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_BeaconBase",
+   "type": "MESH",
+   "collections": [
+    "STATION"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.35
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.7,
+    0.7,
+    0.3
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 64,
+   "faces": 34,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_BeaconPost",
+   "type": "MESH",
+   "collections": [
+    "STATION"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    1.1
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.12,
+    0.12,
+    1.2
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_ExposedMetal"
+   ],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 64,
+   "faces": 34,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_BracketSource",
+   "type": "MESH",
+   "collections": [
+    "CAMERAS_LIGHTS"
+   ],
+   "location": [
+    -0.6,
+    0.85,
+    0.25
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.84,
+    0.08,
+    0.1
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [
+    "Array (NODES)"
+   ],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_CargoBox",
+   "type": "MESH",
+   "collections": [
+    "STATION"
+   ],
+   "location": [
+    -0.8,
+    0.6,
+    0.35
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.3,
+    0.3,
+    0.3
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_CargoCover",
+   "type": "MESH",
+   "collections": [
+    "CAMERAS_LIGHTS"
+   ],
+   "location": [
+    -0.8,
+    0.6,
+    0.52
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.36,
+    0.36,
+    0.02
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [
+    "Solidify (SOLIDIFY)"
+   ],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 4,
+   "faces": 1,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_CourierBody",
+   "type": "MESH",
+   "collections": [
+    "COURIER"
+   ],
+   "location": [
+    0.8,
+    0.0,
+    0.475
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.55,
+    0.55,
+    0.55
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Courier"
+   ],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 20,
+   "faces": 18,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_DockingTray",
+   "type": "MESH",
+   "collections": [
+    "CAMERAS_LIGHTS"
+   ],
+   "location": [
+    -0.5,
+    -0.35,
+    0.185
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.62,
+    0.45,
+    0.13
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 16,
+   "faces": 14,
+   "uv_layers": [],
+   "seams": 0
+  },
+  {
+   "name": "GEO_EquipmentHousing",
+   "type": "MESH",
+   "collections": [
+    "CAMERAS_LIGHTS"
+   ],
+   "location": [
+    0.0,
+    -0.75,
+    0.45
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.6,
+    0.4,
+    0.5
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_PaintedShell"
+   ],
+   "modifiers": [
+    "Boolean (BOOLEAN)",
+    "Bevel (BEVEL)"
+   ],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 16,
+   "faces": 14,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_Ground",
+   "type": "MESH",
+   "collections": [
+    "ENVIRONMENT"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    4.0,
+    4.0,
+    0.0
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 4,
+   "faces": 1,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_HousingLid",
+   "type": "MESH",
+   "collections": [
+    "CAMERAS_LIGHTS"
+   ],
+   "location": [
+    0.05,
+    -0.75,
+    0.73
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.6,
+    0.4,
+    0.04
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Lid_Checker"
+   ],
+   "modifiers": [
+    "Bevel (BEVEL)",
+    "Smooth by Angle (NODES)"
+   ],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 9
+  },
+  {
+   "name": "GEO_HousingPanel",
+   "type": "MESH",
+   "collections": [
+    "CAMERAS_LIGHTS"
+   ],
+   "location": [
+    -0.65,
+    -0.9,
+    0.42
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.5,
+    0.035,
+    0.4
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_StationLabel"
+   ],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 9
+  },
+  {
+   "name": "GEO_Nameplate",
+   "type": "MESH",
+   "collections": [
+    "CAMERAS_LIGHTS"
+   ],
+   "location": [
+    -0.65,
+    -0.9175,
+    0.7
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.36,
+    0.024,
+    0.12
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_Platform",
+   "type": "MESH",
+   "collections": [
+    "STATION"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.1
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    2.4,
+    2.4,
+    0.2
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Platform"
+   ],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 28,
+   "faces": 26,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_Rock",
+   "type": "MESH",
+   "collections": [
+    "W04_INPUTS"
+   ],
+   "location": [
+    1.55,
+    -0.55,
+    0.36
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.7789,
+    0.6631,
+    0.86
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Stone"
+   ],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 642,
+   "faces": 1280,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_Rock_Second",
+   "type": "MESH",
+   "collections": [
+    "W04_INPUTS"
+   ],
+   "location": [
+    0.65,
+    -1.65,
+    0.26
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.9346,
+    0.6631,
+    0.559
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Stone"
+   ],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 642,
+   "faces": 1280,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_RoofPost_L",
+   "type": "MESH",
+   "collections": [
+    "STATION"
+   ],
+   "location": [
+    -0.5,
+    -0.5,
+    1.35
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.1,
+    0.1,
+    2.3
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 64,
+   "faces": 34,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_RoofPost_R",
+   "type": "MESH",
+   "collections": [
+    "STATION"
+   ],
+   "location": [
+    0.5,
+    -0.5,
+    1.35
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.1,
+    0.1,
+    2.3
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 64,
+   "faces": 34,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_RoofSlab",
+   "type": "MESH",
+   "collections": [
+    "STATION"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    2.5
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    2.1818,
+    2.1818,
+    0.1455
+   ],
+   "dimensions": [
+    1.2,
+    1.2,
+    0.08
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_SignalHead",
+   "type": "MESH",
+   "collections": [
+    "STATION"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    1.95
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Signal"
+   ],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 482,
+   "faces": 512,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "GEO_StationCable",
+   "type": "CURVE",
+   "collections": [
+    "CAMERAS_LIGHTS"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.4225,
+    0.7087,
+    0.4884
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false
+  },
+  {
+   "name": "GEO_Terrain",
+   "type": "MESH",
+   "collections": [
+    "W04_INPUTS"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.002
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    4.4,
+    4.4,
+    0.0419
+   ],
+   "parent": null,
+   "materials": [
+    "W04_Terrain_Clay"
+   ],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "vertices": 1089,
+   "faces": 1024,
+   "uv_layers": [],
+   "seams": 0
+  },
+  {
+   "name": "Light",
+   "type": "LIGHT",
+   "collections": [
+    "CAMERAS_LIGHTS"
+   ],
+   "location": [
+    4.0762,
+    1.0055,
+    5.9039
+   ],
+   "rotation_deg": [
+    37.26,
+    3.16,
+    106.94
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "light": "POINT",
+   "energy": 1000.0
+  },
+  {
+   "name": "REF_HousingFront",
+   "type": "EMPTY",
+   "collections": [
+    "REFERENCE"
+   ],
+   "location": [
+    0.05,
+    -0.75,
+    0.45
+   ],
+   "rotation_deg": [
+    90.0,
+    -0.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false
+  },
+  {
+   "name": "REF_Rock_Primary",
+   "type": "MESH",
+   "collections": [
+    "W04_FORM_REFERENCE"
+   ],
+   "location": [
+    -1.2,
+    0.0,
+    0.46
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.96,
+    0.76,
+    0.98
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Stone"
+   ],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 642,
+   "faces": 1280,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "REF_Rock_Secondary",
+   "type": "MESH",
+   "collections": [
+    "W04_FORM_REFERENCE"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.46
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.8807,
+    0.76,
+    0.878
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Stone"
+   ],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 642,
+   "faces": 1280,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "REF_Rock_Tertiary",
+   "type": "MESH",
+   "collections": [
+    "W04_FORM_REFERENCE"
+   ],
+   "location": [
+    1.2,
+    0.0,
+    0.46
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.8885,
+    0.762,
+    0.8822
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Stone"
+   ],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 642,
+   "faces": 1280,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "RETOPO_Eyelid_Neutral",
+   "type": "MESH",
+   "collections": [
+    "W04_HEAD"
+   ],
+   "location": [
+    -2.895,
+    -0.4,
+    1.41
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.1462,
+    0.0236,
+    0.0518
+   ],
+   "parent": null,
+   "materials": [
+    "W04_Head_Clay"
+   ],
+   "modifiers": [
+    "Solidify (SOLIDIFY)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 10,
+   "faces": 4,
+   "uv_layers": [],
+   "seams": 0
+  },
+  {
+   "name": "RETOPO_RockPatch",
+   "type": "MESH",
+   "collections": [
+    "W04_RETOPO"
+   ],
+   "location": [
+    1.55,
+    -0.91,
+    0.44
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.2864,
+    0.0492,
+    0.2289
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Stone"
+   ],
+   "modifiers": [
+    "Shrinkwrap (SHRINKWRAP)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 9,
+   "faces": 4,
+   "uv_layers": [],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_ArchitecturalNiche",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    4.0,
+    0.0,
+    1.0
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    1.85,
+    0.6,
+    2.0
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 16,
+   "faces": 14,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_ArrayCircle",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -3.1,
+    0.85,
+    0.25
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.98,
+    0.98,
+    0.1
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [
+    "Array (NODES)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Bridge",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -3.0,
+    -1.0,
+    0.3
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.3,
+    0.3,
+    0.3
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 5,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_ColorRemesh",
+   "type": "MESH",
+   "collections": [
+    "W04_COLOR"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    1.0867,
+    0.8906,
+    1.088
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 552,
+   "faces": 550,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Crease",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -1.7,
+    1.0,
+    0.475
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.55,
+    0.55,
+    0.55
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Courier"
+   ],
+   "modifiers": [
+    "Subdivision (SUBSURF)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 12,
+   "faces": 10,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_DataSource",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -3.0,
+    0.0,
+    0.5
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.25,
+    0.12,
+    0.3
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Dissolve",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -3.0,
+    -2.2,
+    0.3
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.6,
+    0.3,
+    0.0
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 6,
+   "faces": 2,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Dyntopo",
+   "type": "MESH",
+   "collections": [
+    "W04_RESOLUTION"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    1.1,
+    0.9,
+    1.1
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 662,
+   "faces": 1320,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Eye_L",
+   "type": "MESH",
+   "collections": [
+    "W04_HEAD"
+   ],
+   "location": [
+    -3.18,
+    -0.29,
+    1.33
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.21,
+    0.21,
+    0.21
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 162,
+   "faces": 320,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Eye_R",
+   "type": "MESH",
+   "collections": [
+    "W04_HEAD"
+   ],
+   "location": [
+    -2.82,
+    -0.29,
+    1.33
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.21,
+    0.21,
+    0.21
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 162,
+   "faces": 320,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_FlattenCap",
+   "type": "MESH",
+   "collections": [
+    "COLLECTION_GUIDES"
+   ],
+   "location": [
+    -3.0,
+    1.0,
+    0.6
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.6036,
+    0.599,
+    0.0367
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 1,
+   "uv_layers": [],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Handle",
+   "type": "MESH",
+   "collections": [
+    "COLLECTION_GUIDES"
+   ],
+   "location": [
+    -4.0,
+    0.0,
+    0.0
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.36,
+    0.16,
+    1.0
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 36,
+   "faces": 34,
+   "uv_layers": [],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_HandleDeform",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -4.0,
+    0.5,
+    0.0
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.2263,
+    0.2263,
+    1.0
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [
+    "SimpleDeform (SIMPLE_DEFORM)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 36,
+   "faces": 34,
+   "uv_layers": [],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Independent",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -3.0,
+    0.45,
+    0.5
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.25,
+    0.12,
+    0.2
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_LabelMesh",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -3.15,
+    -0.9425,
+    0.42
+   ],
+   "rotation_deg": [
+    90.0,
+    -0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.1867,
+    0.0415,
+    0.002
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 484,
+   "faces": 343,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Linked",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -3.0,
+    -0.45,
+    0.5
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.35,
+    0.12,
+    0.3
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_LoopSpacing",
+   "type": "MESH",
+   "collections": [
+    "COLLECTION_GUIDES"
+   ],
+   "location": [
+    -3.0,
+    2.0,
+    0.4
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.4,
+    0.4,
+    0.6
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 32,
+   "faces": 24,
+   "uv_layers": [],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_MaleHead",
+   "type": "MESH",
+   "collections": [
+    "W04_HEAD"
+   ],
+   "location": [
+    -3.0,
+    0.0,
+    1.2
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.86,
+    0.7365,
+    1.14
+   ],
+   "parent": null,
+   "materials": [
+    "W04_Head_Clay"
+   ],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 10242,
+   "faces": 20480,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Merge",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -3.0,
+    -1.6,
+    0.3
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.6,
+    0.3,
+    0.0
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 6,
+   "faces": 2,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Multires",
+   "type": "MESH",
+   "collections": [
+    "W04_RESOLUTION"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    1.0774,
+    0.8819,
+    1.0835
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [
+    "Multires (MULTIRES)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 162,
+   "faces": 320,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Order_A",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    1.0,
+    1.0,
+    0.0
+   ],
+   "rotation_deg": [
+    0.0,
+    -0.0,
+    90.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.2,
+    0.1,
+    0.15
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Order_B",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    0.0,
+    2.0,
+    0.0
+   ],
+   "rotation_deg": [
+    0.0,
+    -0.0,
+    90.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.2,
+    0.1,
+    0.15
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Origin",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -1.7,
+    0.02,
+    0.475
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.55,
+    0.55,
+    0.55
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Courier"
+   ],
+   "modifiers": [
+    "Mirror (MIRROR)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 12,
+   "faces": 8,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_PortCircle",
+   "type": "MESH",
+   "collections": [
+    "COLLECTION_GUIDES"
+   ],
+   "location": [
+    -3.0,
+    0.0,
+    0.6
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.5976,
+    0.5976,
+    0.0
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 1,
+   "uv_layers": [],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_PortLoop",
+   "type": "MESH",
+   "collections": [
+    "COLLECTION_GUIDES"
+   ],
+   "location": [
+    -3.0,
+    0.0,
+    0.6
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.5004,
+    0.57,
+    0.0
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 0,
+   "uv_layers": [],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_PrimitiveStart",
+   "type": "MESH",
+   "collections": [
+    "W04_PRIMITIVES"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.8,
+    0.8,
+    1.0942
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 650,
+   "faces": 1286,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_ProjectSheet",
+   "type": "MESH",
+   "collections": [
+    "W04_PROJECT"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.23
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    1.4,
+    1.4,
+    0.0495
+   ],
+   "parent": null,
+   "materials": [
+    "W04_Terrain_Clay"
+   ],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 1089,
+   "faces": 1024,
+   "uv_layers": [],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_ProjectTarget",
+   "type": "MESH",
+   "collections": [
+    "W04_PROJECT"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    -0.25
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    1.24,
+    1.24,
+    0.84
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Stone"
+   ],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 642,
+   "faces": 1280,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_rock_procedural",
+   "type": "MESH",
+   "collections": [
+    "BAKE_TARGET"
+   ],
+   "location": [
+    2.65,
+    -0.55,
+    0.36
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.7789,
+    0.6631,
+    0.86
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Rock_Procedural"
+   ],
+   "modifiers": [
+    "Triangulate (TRIANGULATE)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 642,
+   "faces": 1280,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Selection",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -3.0,
+    0.6,
+    0.35
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.6,
+    0.3,
+    0.3
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [
+    "Bevel (BEVEL)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Shading",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -2.45,
+    -0.75,
+    0.73
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.6,
+    0.4,
+    0.04
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [
+    "Bevel (BEVEL)",
+    "Smooth by Angle (NODES)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Snapping",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -2.65,
+    -0.9175,
+    0.42
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.36,
+    0.024,
+    0.12
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Stack",
+   "type": "MESH",
+   "collections": [
+    "STUDIES"
+   ],
+   "location": [
+    -1.7,
+    0.02,
+    0.475
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.55,
+    0.55,
+    0.55
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Courier"
+   ],
+   "modifiers": [
+    "Mirror (MIRROR)",
+    "Bevel (BEVEL)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 12,
+   "faces": 8,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Subdivision",
+   "type": "MESH",
+   "collections": [
+    "BACKUP"
+   ],
+   "location": [
+    -1.7,
+    0.0,
+    0.475
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.55,
+    0.55,
+    0.55
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Courier"
+   ],
+   "modifiers": [
+    "Subdivision (SUBSURF)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 16,
+   "faces": 14,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_SubdNgon",
+   "type": "MESH",
+   "collections": [
+    "COLLECTION_GUIDES"
+   ],
+   "location": [
+    -4.0,
+    1.0,
+    0.5
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.7,
+    0.6062,
+    0.0
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [
+    "Subdivision (SUBSURF)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 6,
+   "faces": 1,
+   "uv_layers": [],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_SubdPole",
+   "type": "MESH",
+   "collections": [
+    "COLLECTION_GUIDES"
+   ],
+   "location": [
+    -4.0,
+    2.0,
+    0.5
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.8,
+    0.8,
+    0.18
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [
+    "Subdivision (SUBSURF)"
+   ],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 5,
+   "faces": 4,
+   "uv_layers": [],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Voxel",
+   "type": "MESH",
+   "collections": [
+    "W04_RESOLUTION"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    1.1,
+    0.9,
+    1.1
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 162,
+   "faces": 320,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "STUDY_Voxel_Work",
+   "type": "MESH",
+   "collections": [
+    "W04_RESOLUTION"
+   ],
+   "location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    1.0669,
+    0.8737,
+    1.0725
+   ],
+   "parent": null,
+   "materials": [],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 1056,
+   "faces": 1054,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "TXT_StationLabel",
+   "type": "FONT",
+   "collections": [
+    "CAMERAS_LIGHTS"
+   ],
+   "location": [
+    -0.65,
+    -0.9425,
+    0.7
+   ],
+   "rotation_deg": [
+    90.0,
+    -0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    0.1867,
+    0.0415,
+    0.002
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_StationIdentifier_Ink"
+   ],
+   "modifiers": [],
+   "hide_render": false,
+   "hide_viewport": false,
+   "text": "LUMEN"
+  },
+  {
+   "name": "UDIM_Panel",
+   "type": "MESH",
+   "collections": [
+    "TEXTURE_VARIATIONS"
+   ],
+   "location": [
+    -2.65,
+    -0.9,
+    0.42
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    0.25,
+    0.0175,
+    0.2
+   ],
+   "dimensions": [
+    0.5,
+    0.035,
+    0.4
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_StationTiles"
+   ],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 6,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  },
+  {
+   "name": "UV_RepeatedPanel",
+   "type": "MESH",
+   "collections": [
+    "TEXTURE_VARIATIONS"
+   ],
+   "location": [
+    3.3,
+    -0.75,
+    0.7
+   ],
+   "rotation_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dimensions": [
+    1.04,
+    0.0,
+    0.4
+   ],
+   "parent": null,
+   "materials": [
+    "MAT_Panel_Checker"
+   ],
+   "modifiers": [],
+   "hide_render": true,
+   "hide_viewport": false,
+   "vertices": 8,
+   "faces": 2,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "seams": 0
+  }
+ ],
+ "materials": [
+  {
+   "name": "MAT_Courier",
+   "users": 9,
+   "images": [],
+   "links": [],
+   "roughness": 0.5,
+   "metallic": 0.0
+  },
+  {
+   "name": "MAT_ExposedMetal",
+   "users": 1,
+   "images": [],
+   "links": [],
+   "roughness": 0.25,
+   "metallic": 1.0
+  },
+  {
+   "name": "MAT_Lid_Checker",
+   "users": 1,
+   "images": [
+    {
+     "node": "Image Texture",
+     "image": "TEX_Station_Checker",
+     "colorspace": "sRGB",
+     "interpolation": "Linear"
+    }
+   ],
+   "links": [
+    "Image Texture.Color -> Principled BSDF.Base Color"
+   ],
+   "roughness": 0.6,
+   "metallic": 0.0
+  },
+  {
+   "name": "MAT_PaintedShell",
+   "users": 2,
+   "images": [],
+   "links": [],
+   "roughness": 0.4,
+   "metallic": 0.0
+  },
+  {
+   "name": "MAT_Panel_Checker",
+   "users": 1,
+   "images": [
+    {
+     "node": "Checker Image",
+     "image": "TEX_Station_Checker",
+     "colorspace": "sRGB",
+     "interpolation": "Linear"
+    }
+   ],
+   "links": [
+    "Checker Image.Color -> Principled BSDF.Base Color"
+   ],
+   "roughness": 0.32,
+   "metallic": 0.0
+  },
+  {
+   "name": "MAT_Platform",
+   "users": 1,
+   "images": [],
+   "links": [],
+   "roughness": 0.5,
+   "metallic": 0.0
+  },
+  {
+   "name": "MAT_PreparedHighGeometry",
+   "users": 1,
+   "images": [],
+   "links": [],
+   "roughness": 0.45,
+   "metallic": 0.0
+  },
+  {
+   "name": "MAT_Rock_Export",
+   "users": 1,
+   "images": [
+    {
+     "node": "Image Texture",
+     "image": "TEX_rock_normal",
+     "colorspace": "Non-Color",
+     "interpolation": "Linear"
+    },
+    {
+     "node": "Image Texture.001",
+     "image": "TEX_rock_basecolor",
+     "colorspace": "sRGB",
+     "interpolation": "Linear"
+    },
+    {
+     "node": "Image Texture.002",
+     "image": "TEX_rock_roughness",
+     "colorspace": "Non-Color",
+     "interpolation": "Linear"
+    },
+    {
+     "node": "Image Texture.003",
+     "image": "TEX_rock_metallic",
+     "colorspace": "Non-Color",
+     "interpolation": "Linear"
+    }
+   ],
+   "links": [
+    "Image Texture.001.Color -> Principled BSDF.Base Color",
+    "Image Texture.002.Color -> Principled BSDF.Roughness",
+    "Image Texture.003.Color -> Principled BSDF.Metallic",
+    "Image Texture.Color -> Normal Map.Color",
+    "Noise Texture.Factor -> Bump.Height",
+    "Noise Texture.Factor -> Color Ramp.Factor",
+    "Noise Texture.Factor -> Map Range.Value",
+    "Normal Map.Normal -> Principled BSDF.Normal"
+   ],
+   "roughness": 0.6,
+   "metallic": 0.0,
+   "ramp": [
+    [
+     0.0,
+     [
+      0.133,
+      0.08,
+      0.042,
+      1.0
+     ]
+    ],
+    [
+     1.0,
+     [
+      0.546,
+      0.361,
+      0.195,
+      1.0
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "MAT_Rock_Procedural",
+   "users": 1,
+   "images": [
+    {
+     "node": "Image Texture",
+     "image": "TEX_rock_normal",
+     "colorspace": "Non-Color",
+     "interpolation": "Linear"
+    }
+   ],
+   "links": [
+    "Color Ramp.Color -> Principled BSDF.Base Color",
+    "Image Texture.Color -> Normal Map.Color",
+    "Map Range.Result -> Principled BSDF.Roughness",
+    "Noise Texture.Factor -> Bump.Height",
+    "Noise Texture.Factor -> Color Ramp.Factor",
+    "Noise Texture.Factor -> Map Range.Value",
+    "Normal Map.Normal -> Principled BSDF.Normal"
+   ],
+   "roughness": 0.6,
+   "metallic": 0.0,
+   "ramp": [
+    [
+     0.0,
+     [
+      0.133,
+      0.08,
+      0.042,
+      1.0
+     ]
+    ],
+    [
+     1.0,
+     [
+      0.546,
+      0.361,
+      0.195,
+      1.0
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "MAT_Rubber",
+   "users": 2,
+   "images": [],
+   "links": [],
+   "roughness": 0.75,
+   "metallic": 0.0
+  },
+  {
+   "name": "MAT_Signal",
+   "users": 1,
+   "images": [],
+   "links": [],
+   "roughness": 0.5,
+   "metallic": 0.0
+  },
+  {
+   "name": "MAT_StationDecal",
+   "users": 1,
+   "images": [
+    {
+     "node": "Image Texture",
+     "image": "TEX_station_decal",
+     "colorspace": "sRGB",
+     "interpolation": "Linear"
+    }
+   ],
+   "links": [
+    "Image Texture.Alpha -> Principled BSDF.Alpha",
+    "Image Texture.Color -> Principled BSDF.Base Color"
+   ],
+   "roughness": 0.5,
+   "metallic": 0.0
+  },
+  {
+   "name": "MAT_StationIdentifier_Ink",
+   "users": 1,
+   "images": [],
+   "links": [],
+   "roughness": 0.6,
+   "metallic": 0.0
+  },
+  {
+   "name": "MAT_StationLabel",
+   "users": 1,
+   "images": [
+    {
+     "node": "Checker Image",
+     "image": "TEX_Station_Checker",
+     "colorspace": "sRGB",
+     "interpolation": "Linear"
+    },
+    {
+     "node": "Image Texture",
+     "image": "TEX_station_label_color",
+     "colorspace": "sRGB",
+     "interpolation": "Linear"
+    }
+   ],
+   "links": [
+    "Image Texture.Color -> Principled BSDF.Base Color"
+   ],
+   "roughness": 0.32,
+   "metallic": 0.0
+  },
+  {
+   "name": "MAT_StationTiles",
+   "users": 1,
+   "images": [
+    {
+     "node": "Checker Image",
+     "image": "TEX_station_tiles",
+     "colorspace": "sRGB",
+     "interpolation": "Linear"
+    }
+   ],
+   "links": [
+    "Checker Image.Color -> Principled BSDF.Base Color"
+   ],
+   "roughness": 0.32,
+   "metallic": 0.0
+  },
+  {
+   "name": "MAT_Stone",
+   "users": 9,
+   "images": [],
+   "links": [
+    "Bump.Normal -> Principled BSDF.Normal",
+    "Map Range.Result -> Principled BSDF.Roughness",
+    "Noise Texture.Factor -> Bump.Height",
+    "Noise Texture.Factor -> Map Range.Value"
+   ],
+   "roughness": 0.6,
+   "metallic": 0.0
+  },
+  {
+   "name": "W04_Head_Clay",
+   "users": 2,
+   "images": [],
+   "links": [],
+   "roughness": 0.65,
+   "metallic": 0.0
+  },
+  {
+   "name": "W04_Terrain_Clay",
+   "users": 2,
+   "images": [],
+   "links": [],
+   "roughness": 0.65,
+   "metallic": 0.0
+  }
+ ],
+ "images": [
+  {
+   "name": "housing_front.png",
+   "source": "FILE",
+   "size": [
+    1600,
+    1600
+   ],
+   "colorspace": "sRGB",
+   "alpha_mode": "STRAIGHT",
+   "filepath": "//..\\reference\\housing_front.png",
+   "packed": true,
+   "tiles": null,
+   "generated": null
+  },
+  {
+   "name": "TEX_rock_basecolor",
+   "source": "FILE",
+   "size": [
+    1024,
+    1024
+   ],
+   "colorspace": "sRGB",
+   "alpha_mode": "STRAIGHT",
+   "filepath": "//..\\textures\\rock_basecolor.png",
+   "packed": false,
+   "tiles": null,
+   "generated": null
+  },
+  {
+   "name": "TEX_rock_metallic",
+   "source": "FILE",
+   "size": [
+    1024,
+    1024
+   ],
+   "colorspace": "Non-Color",
+   "alpha_mode": "STRAIGHT",
+   "filepath": "//..\\textures\\rock_metallic.png",
+   "packed": false,
+   "tiles": null,
+   "generated": null
+  },
+  {
+   "name": "TEX_rock_normal",
+   "source": "FILE",
+   "size": [
+    1024,
+    1024
+   ],
+   "colorspace": "Non-Color",
+   "alpha_mode": "STRAIGHT",
+   "filepath": "//..\\textures\\rock_normal.png",
+   "packed": false,
+   "tiles": null,
+   "generated": null
+  },
+  {
+   "name": "TEX_rock_roughness",
+   "source": "FILE",
+   "size": [
+    1024,
+    1024
+   ],
+   "colorspace": "Non-Color",
+   "alpha_mode": "STRAIGHT",
+   "filepath": "//..\\textures\\rock_roughness.png",
+   "packed": false,
+   "tiles": null,
+   "generated": null
+  },
+  {
+   "name": "TEX_Station_Checker",
+   "source": "FILE",
+   "size": [
+    1024,
+    1024
+   ],
+   "colorspace": "sRGB",
+   "alpha_mode": "STRAIGHT",
+   "filepath": "",
+   "packed": true,
+   "tiles": null,
+   "generated": null
+  },
+  {
+   "name": "TEX_station_decal",
+   "source": "FILE",
+   "size": [
+    1024,
+    1024
+   ],
+   "colorspace": "sRGB",
+   "alpha_mode": "STRAIGHT",
+   "filepath": "//..\\textures\\station_decal.png",
+   "packed": false,
+   "tiles": null,
+   "generated": null
+  },
+  {
+   "name": "TEX_station_label_color",
+   "source": "FILE",
+   "size": [
+    1024,
+    1024
+   ],
+   "colorspace": "sRGB",
+   "alpha_mode": "STRAIGHT",
+   "filepath": "//..\\textures\\station_label_color.png",
+   "packed": false,
+   "tiles": null,
+   "generated": null
+  },
+  {
+   "name": "TEX_station_tiles",
+   "source": "TILED",
+   "size": [
+    1024,
+    1024
+   ],
+   "colorspace": "sRGB",
+   "alpha_mode": "STRAIGHT",
+   "filepath": "//..\\textures\\station_tiles.<UDIM>.png",
+   "packed": false,
+   "tiles": [
+    1001,
+    1002
+   ],
+   "generated": null
+  }
+ ]
+}
