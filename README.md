@@ -18,7 +18,7 @@ Each lecture has its own folder with the Blender files you create in the video, 
 | 4 | Sculpting, Organic Form & Retopology | Planned | [week04](week04/) |
 | 5 | Materials, Procedural Shaders & Surface Behavior | Planned | [week05](week05/) |
 | 6 | UV Unwrapping, Texture Painting & Normal Baking | Planned | [week06](week06/) |
-| 7 | Cameras, Lighting, EEVEE, Cycles & Performance | Planned | Planned |
+| 7 | Cameras, Lighting, EEVEE, Cycles & Performance | Planned | [week07](week07/) |
 | 8 | Asset Libraries & Geometry Nodes Scattering | Planned | Planned |
 | 9 | Procedural Modeling & Audio-Reactive Geometry Nodes | Planned | Planned |
 | 10 | Robot Rigging, Weights & Constraints | Planned | Planned |
