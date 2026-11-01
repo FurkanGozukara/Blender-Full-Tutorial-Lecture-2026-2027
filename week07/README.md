@@ -2,9 +2,11 @@
 
 Turn the textured Lumen Field Station into a directed image of a courier arriving after sunset. You learn to find the cause first, because a weak camera, flat light and noise each need a different fix. You compose a hero camera and see why moving the camera changes perspective while the lens only changes the field of view, light the courier with one area key, a fill that reaches only the courier and a blue-hour sky, compare a captured HDRI with Blender's Sky Texture and a matched Sun light, add depth of field and a bounded volume, then compare EEVEE and Cycles, samples, the denoiser, aliasing, light bounces, the Texture Cache and Simplify, and time one frame to forecast a 240-frame sequence.
 
-![Version one of the station at blue hour: the reference render of this lecture](preview.jpg)
+[![Watch Lecture 7 on YouTube](https://img.youtube.com/vi/03T-CArVSW4/maxresdefault.jpg)](https://www.youtube.com/watch?v=03T-CArVSW4)
 
-The lecture is 1:12:34. Its video link will be added when published. [Full course playlist](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg) · [course overview](../README.md)
+**Watch on YouTube:** [Blender Volumetric Lighting: Haze, Light Beams and Depth of Field Explained | Lecture 7](https://www.youtube.com/watch?v=03T-CArVSW4) (1:12:34) · [the full course playlist](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg) · [course overview and all 14 lectures](../README.md)
+
+Every time in this README opens the video at that moment.
 
 ## Files
 
@@ -12,19 +14,19 @@ The files were made with Blender 5.2.2 LTS; open them with Blender 5.2 or newer.
 
 | File | What it is | Video |
 |---|---|---|
-| [`LumenCourse/blend/w07_station_v001.blend`](LumenCourse/blend/w07_station_v001.blend) | Version one, the baseline: the hero camera, the area key, the courier fill, the blue-hour sky, depth of field, the `W07_Studies` scene and the `W07_Notes` text. Lecture 8 continues from this file. | 41:18 Save As; saved again at 43:10, 1:00:44 and 1:05:51 |
-| [`LumenCourse/blend/w07_v001_reference.png`](LumenCourse/blend/w07_v001_reference.png) | The reference render of version one: 1920 × 1080 (50 % of 3840 × 2160), Cycles, 128 samples, denoised | 42:44 |
-| [`LumenCourse/blend/w07_station_v002_golden.blend`](LumenCourse/blend/w07_station_v002_golden.blend) | Version two, a golden-hour treatment of the same camera and geometry | 1:08:05 Save As; saved again at 1:10:31 |
-| [`LumenCourse/hdri/cloud_layers_4k.exr`](LumenCourse/hdri/cloud_layers_4k.exr) | The Cloud Layers HDRI from Poly Haven (4K, EXR), downloaded in the browser | 17:44 |
-| [`LumenCourse/textures/8k/blender_tx/`](LumenCourse/textures/8k/blender_tx/) | The `.tx` files the Texture Cache makes during the second test render | 1:01:32 |
-| `LumenCourse/renders/w07_motion_test/` | The 24 frames of the motion test (frames 97 to 120, 960 × 540). Rendered sequences are not stored in the repository: download [`w07_motion_test.zip`](https://github.com/FurkanGozukara/Blender-Full-Tutorial-Lecture-2026-2027/releases/download/week07/w07_motion_test.zip) from the [`week07` release](https://github.com/FurkanGozukara/Blender-Full-Tutorial-Lecture-2026-2027/releases/tag/week07) and extract it into this `week07` folder | 53:26 |
+| [`LumenCourse/blend/w07_station_v001.blend`](LumenCourse/blend/w07_station_v001.blend) | Version one, the baseline: the hero camera, the area key, the courier fill, the blue-hour sky, depth of field, the `W07_Studies` scene and the `W07_Notes` text. Lecture 8 continues from this file. | [41:18](https://www.youtube.com/watch?v=03T-CArVSW4&t=2478s) Save As; saved again at [43:10](https://www.youtube.com/watch?v=03T-CArVSW4&t=2590s), [1:00:44](https://www.youtube.com/watch?v=03T-CArVSW4&t=3644s) and [1:05:51](https://www.youtube.com/watch?v=03T-CArVSW4&t=3951s) |
+| [`LumenCourse/blend/w07_v001_reference.png`](LumenCourse/blend/w07_v001_reference.png) | The reference render of version one: 1920 × 1080 (50 % of 3840 × 2160), Cycles, 128 samples, denoised | [42:44](https://www.youtube.com/watch?v=03T-CArVSW4&t=2564s) |
+| [`LumenCourse/blend/w07_station_v002_golden.blend`](LumenCourse/blend/w07_station_v002_golden.blend) | Version two, a golden-hour treatment of the same camera and geometry | [1:08:05](https://www.youtube.com/watch?v=03T-CArVSW4&t=4085s) Save As; saved again at [1:10:31](https://www.youtube.com/watch?v=03T-CArVSW4&t=4231s) |
+| [`LumenCourse/hdri/cloud_layers_4k.exr`](LumenCourse/hdri/cloud_layers_4k.exr) | The Cloud Layers HDRI from Poly Haven (4K, EXR), downloaded in the browser | [17:44](https://www.youtube.com/watch?v=03T-CArVSW4&t=1064s) |
+| [`LumenCourse/textures/8k/blender_tx/`](LumenCourse/textures/8k/blender_tx/) | The `.tx` files the Texture Cache makes during the second test render | [1:01:32](https://www.youtube.com/watch?v=03T-CArVSW4&t=3692s) |
+| `LumenCourse/renders/w07_motion_test/` | The 24 frames of the motion test (frames 97 to 120, 960 × 540). Rendered sequences are not stored in the repository: download [`w07_motion_test.zip`](https://github.com/FurkanGozukara/Blender-Full-Tutorial-Lecture-2026-2027/releases/download/week07/w07_motion_test.zip) from the [`week07` release](https://github.com/FurkanGozukara/Blender-Full-Tutorial-Lecture-2026-2027/releases/tag/week07) and extract it into this `week07` folder | [53:26](https://www.youtube.com/watch?v=03T-CArVSW4&t=3206s) |
 | [`LumenCourse/textures/`](LumenCourse/textures/) | The station's image textures from Lecture 6 (1024 × 1024, with the two UDIM tiles); `textures/8k/` holds the 8192 × 8192 copies the texture test reads | |
 | `LumenCourse/audio`, `cache`, `exports` | The rest of the project folder, empty for now | |
 | [`checkpoints/`](checkpoints/) | A saved scene after each building step (see below) | |
-| [`extras/w07_station_entry.blend`](extras/w07_station_entry.blend) | The station the lecture starts from: a copy of Lecture 6's final station | 2:52 |
-| [`extras/w07_diag_framing.png`](extras/w07_diag_framing.png), [`w07_diag_flat.png`](extras/w07_diag_flat.png), [`w07_diag_noisy.png`](extras/w07_diag_noisy.png) | The three prepared diagnosis renders: the old camera, flat light, and 4 samples without denoising | 1:08, 1:30, 1:46 |
-| [`extras/w07_texture_cache_test.blend`](extras/w07_texture_cache_test.blend) | The texture-heavy test copy: version one with 8192 × 8192 textures | 1:00:44 |
-| [`extras/`](extras/README.md) scripts | `render_diagnosis_images.py`, `make_texture_cache_test.py`, and the two scripts that add the prepared studies (shown at 26:30 and 55:24) to your own file | |
+| [`extras/w07_station_entry.blend`](extras/w07_station_entry.blend) | The station the lecture starts from: a copy of Lecture 6's final station | [2:52](https://www.youtube.com/watch?v=03T-CArVSW4&t=172s) |
+| [`extras/w07_diag_framing.png`](extras/w07_diag_framing.png), [`w07_diag_flat.png`](extras/w07_diag_flat.png), [`w07_diag_noisy.png`](extras/w07_diag_noisy.png) | The three prepared diagnosis renders: the old camera, flat light, and 4 samples without denoising | [1:08](https://www.youtube.com/watch?v=03T-CArVSW4&t=68s), [1:30](https://www.youtube.com/watch?v=03T-CArVSW4&t=90s), [1:46](https://www.youtube.com/watch?v=03T-CArVSW4&t=106s) |
+| [`extras/w07_texture_cache_test.blend`](extras/w07_texture_cache_test.blend) | The texture-heavy test copy: version one with 8192 × 8192 textures | [1:00:44](https://www.youtube.com/watch?v=03T-CArVSW4&t=3644s) |
+| [`extras/`](extras/README.md) scripts | `render_diagnosis_images.py`, `make_texture_cache_test.py`, and the two scripts that add the prepared studies (shown at [26:30](https://www.youtube.com/watch?v=03T-CArVSW4&t=1590s) and [55:24](https://www.youtube.com/watch?v=03T-CArVSW4&t=3324s)) to your own file | |
 
 The scenes store their render output folder relative to the file (`//../renders/`), so frames land in your own `LumenCourse/renders` when the file sits in `LumenCourse/blend`.
 
@@ -34,32 +36,32 @@ Missed a step, or want to start in the middle? Open a checkpoint, save a copy in
 
 | Checkpoint | Scene state | Continue the video at |
 |---|---|---|
-| [`w07_checkpoint_01_courier_on_the_terrain.blend`](checkpoints/w07_checkpoint_01_courier_on_the_terrain.blend) | Goals in `W07_Notes`, the courier moved onto the terrain, the lid repainted | 5:06 A hero camera, aligned to a chosen view |
-| [`w07_checkpoint_02_hero_camera_at_45_mm.blend`](checkpoints/w07_checkpoint_02_hero_camera_at_45_mm.blend) | `CAM_hero` aligned and framed with a 45 mm lens, output noted | 9:34 Projection: two equal markers |
-| [`w07_checkpoint_03_projection_study.blend`](checkpoints/w07_checkpoint_03_projection_study.blend) | The `W07_Studies` scene with its camera and two markers | 12:47 Start from darkness |
-| [`w07_checkpoint_04_area_key_light.blend`](checkpoints/w07_checkpoint_04_area_key_light.blend) | Old lights off, `LGT_Key` with Track To at 200 W and 1 m, world strength back to 1 | 16:31 The metal post needs something to reflect |
-| [`w07_checkpoint_05_captured_environment.blend`](checkpoints/w07_checkpoint_05_captured_environment.blend) | A world with the Cloud Layers HDRI, rotated by a Mapping node | 19:45 A procedural sky that needs no file |
-| [`w07_checkpoint_06_procedural_sky.blend`](checkpoints/w07_checkpoint_06_procedural_sky.blend) | The `W07_Sky` Sky Texture world and the ground scaled to the horizon | 21:20 A Sun light and its angle |
-| [`w07_checkpoint_07_sun_light_matched_to_the_sky.blend`](checkpoints/w07_checkpoint_07_sun_light_matched_to_the_sky.blend) | `LGT_Sun` matched to the sky and checked in EEVEE; Cycles active again | 24:21 Choose the route for this story |
-| [`w07_checkpoint_08_blue_hour_and_bright_signal.blend`](checkpoints/w07_checkpoint_08_blue_hour_and_bright_signal.blend) | Blue-hour sky, the Sun light off, beacon emission 12, notes; the prepared light-direction study | 26:08 Light direction on a matte plate |
-| [`w07_checkpoint_09_light_physics_studies.blend`](checkpoints/w07_checkpoint_09_light_physics_studies.blend) | The cosine, dot product and distance studies | 31:50 A fill light, only where it is needed |
-| [`w07_checkpoint_10_courier_fill_with_light_linking.blend`](checkpoints/w07_checkpoint_10_courier_fill_with_light_linking.blend) | `LGT_Fill_Courier` linked to the courier, the old lights deleted | 34:49 Depth of field |
-| [`w07_checkpoint_11_depth_of_field.blend`](checkpoints/w07_checkpoint_11_depth_of_field.blend) | Depth of field on the courier at F-Stop 4 | 36:02 Motion blur, briefly |
-| [`w07_checkpoint_12_volume_study_excluded.blend`](checkpoints/w07_checkpoint_12_volume_study_excluded.blend) | Spot beam and volume box in `W07_Volume_Study`, the collection excluded | 41:19 Version one, with its settings |
-| [`w07_checkpoint_13_version_one_and_reference_render.blend`](checkpoints/w07_checkpoint_13_version_one_and_reference_render.blend) | Version one at 128 samples, the reference render made at 50 % | 43:10 A render region and the first engine |
-| [`w07_checkpoint_14_engine_comparison.blend`](checkpoints/w07_checkpoint_14_engine_comparison.blend) | EEVEE and Cycles compared in a region, Screen Trace on, the region cleared | 47:20 Samples and noise |
-| [`w07_checkpoint_15_samples_denoiser_and_filter.blend`](checkpoints/w07_checkpoint_15_samples_denoiser_and_filter.blend) | Samples, denoiser and pixel filter back at the baseline | 51:19 A still is one frame: a short motion test |
-| [`w07_checkpoint_16_motion_camera.blend`](checkpoints/w07_checkpoint_16_motion_camera.blend) | `CAM_motion` with two location keyframes over 240 frames | 52:41 Render a short slice |
-| [`w07_checkpoint_17_motion_test_and_view_transform.blend`](checkpoints/w07_checkpoint_17_motion_test_and_view_transform.blend) | The motion-test settings (frames 97 to 120, 25 %, 16 samples), AgX checked; the prepared colour-bleeding study | 55:24 Light that bounces carries colour |
-| [`w07_checkpoint_18_bounce_studies.blend`](checkpoints/w07_checkpoint_18_bounce_studies.blend) | Diffuse bounces and Fast GI compared in the studies scene | 57:26 Where this scene's cost really is |
-| [`w07_checkpoint_19_render_cost_and_preview_size.blend`](checkpoints/w07_checkpoint_19_render_cost_and_preview_size.blend) | Render cost measured, previews at 50 % | 59:38 The Texture Cache |
-| [`w07_checkpoint_20_texture_cache_notes.blend`](checkpoints/w07_checkpoint_20_texture_cache_notes.blend) | The Texture Cache settings read and noted | 1:00:45 A texture-heavy test |
-| [`w07_checkpoint_21_simplify_and_memory_notes.blend`](checkpoints/w07_checkpoint_21_simplify_and_memory_notes.blend) | The texture test done, Simplify tried and noted | 1:03:49 Time one representative frame |
-| [`w07_checkpoint_22_benchmark_and_forecast.blend`](checkpoints/w07_checkpoint_22_benchmark_and_forecast.blend) | Benchmark frame and the 240-frame forecast in the notes, version one saved | 1:06:08 When the full render is too slow |
-| [`w07_checkpoint_23_full_move_checked.blend`](checkpoints/w07_checkpoint_23_full_move_checked.blend) | Frame range 1 to 240 and the motion camera checked | 1:07:03 Full size and thumbnail |
-| [`w07_checkpoint_24_golden_hour_version_two.blend`](checkpoints/w07_checkpoint_24_golden_hour_version_two.blend) | Golden-hour version two saved | 1:10:47 Questions to check your understanding |
+| [`w07_checkpoint_01_courier_on_the_terrain.blend`](checkpoints/w07_checkpoint_01_courier_on_the_terrain.blend) | Goals in `W07_Notes`, the courier moved onto the terrain, the lid repainted | [5:06](https://www.youtube.com/watch?v=03T-CArVSW4&t=306s) A hero camera, aligned to a chosen view |
+| [`w07_checkpoint_02_hero_camera_at_45_mm.blend`](checkpoints/w07_checkpoint_02_hero_camera_at_45_mm.blend) | `CAM_hero` aligned and framed with a 45 mm lens, output noted | [9:34](https://www.youtube.com/watch?v=03T-CArVSW4&t=574s) Projection: two equal markers |
+| [`w07_checkpoint_03_projection_study.blend`](checkpoints/w07_checkpoint_03_projection_study.blend) | The `W07_Studies` scene with its camera and two markers | [12:47](https://www.youtube.com/watch?v=03T-CArVSW4&t=767s) Start from darkness |
+| [`w07_checkpoint_04_area_key_light.blend`](checkpoints/w07_checkpoint_04_area_key_light.blend) | Old lights off, `LGT_Key` with Track To at 200 W and 1 m, world strength back to 1 | [16:31](https://www.youtube.com/watch?v=03T-CArVSW4&t=991s) The metal post needs something to reflect |
+| [`w07_checkpoint_05_captured_environment.blend`](checkpoints/w07_checkpoint_05_captured_environment.blend) | A world with the Cloud Layers HDRI, rotated by a Mapping node | [19:45](https://www.youtube.com/watch?v=03T-CArVSW4&t=1185s) A procedural sky that needs no file |
+| [`w07_checkpoint_06_procedural_sky.blend`](checkpoints/w07_checkpoint_06_procedural_sky.blend) | The `W07_Sky` Sky Texture world and the ground scaled to the horizon | [21:20](https://www.youtube.com/watch?v=03T-CArVSW4&t=1280s) A Sun light and its angle |
+| [`w07_checkpoint_07_sun_light_matched_to_the_sky.blend`](checkpoints/w07_checkpoint_07_sun_light_matched_to_the_sky.blend) | `LGT_Sun` matched to the sky and checked in EEVEE; Cycles active again | [24:21](https://www.youtube.com/watch?v=03T-CArVSW4&t=1461s) Choose the route for this story |
+| [`w07_checkpoint_08_blue_hour_and_bright_signal.blend`](checkpoints/w07_checkpoint_08_blue_hour_and_bright_signal.blend) | Blue-hour sky, the Sun light off, beacon emission 12, notes; the prepared light-direction study | [26:08](https://www.youtube.com/watch?v=03T-CArVSW4&t=1568s) Light direction on a matte plate |
+| [`w07_checkpoint_09_light_physics_studies.blend`](checkpoints/w07_checkpoint_09_light_physics_studies.blend) | The cosine, dot product and distance studies | [31:50](https://www.youtube.com/watch?v=03T-CArVSW4&t=1910s) A fill light, only where it is needed |
+| [`w07_checkpoint_10_courier_fill_with_light_linking.blend`](checkpoints/w07_checkpoint_10_courier_fill_with_light_linking.blend) | `LGT_Fill_Courier` linked to the courier, the old lights deleted | [34:49](https://www.youtube.com/watch?v=03T-CArVSW4&t=2089s) Depth of field |
+| [`w07_checkpoint_11_depth_of_field.blend`](checkpoints/w07_checkpoint_11_depth_of_field.blend) | Depth of field on the courier at F-Stop 4 | [36:02](https://www.youtube.com/watch?v=03T-CArVSW4&t=2162s) Motion blur, briefly |
+| [`w07_checkpoint_12_volume_study_excluded.blend`](checkpoints/w07_checkpoint_12_volume_study_excluded.blend) | Spot beam and volume box in `W07_Volume_Study`, the collection excluded | [41:19](https://www.youtube.com/watch?v=03T-CArVSW4&t=2479s) Version one, with its settings |
+| [`w07_checkpoint_13_version_one_and_reference_render.blend`](checkpoints/w07_checkpoint_13_version_one_and_reference_render.blend) | Version one at 128 samples, the reference render made at 50 % | [43:10](https://www.youtube.com/watch?v=03T-CArVSW4&t=2590s) A render region and the first engine |
+| [`w07_checkpoint_14_engine_comparison.blend`](checkpoints/w07_checkpoint_14_engine_comparison.blend) | EEVEE and Cycles compared in a region, Screen Trace on, the region cleared | [47:20](https://www.youtube.com/watch?v=03T-CArVSW4&t=2840s) Samples and noise |
+| [`w07_checkpoint_15_samples_denoiser_and_filter.blend`](checkpoints/w07_checkpoint_15_samples_denoiser_and_filter.blend) | Samples, denoiser and pixel filter back at the baseline | [51:19](https://www.youtube.com/watch?v=03T-CArVSW4&t=3079s) A still is one frame: a short motion test |
+| [`w07_checkpoint_16_motion_camera.blend`](checkpoints/w07_checkpoint_16_motion_camera.blend) | `CAM_motion` with two location keyframes over 240 frames | [52:41](https://www.youtube.com/watch?v=03T-CArVSW4&t=3161s) Render a short slice |
+| [`w07_checkpoint_17_motion_test_and_view_transform.blend`](checkpoints/w07_checkpoint_17_motion_test_and_view_transform.blend) | The motion-test settings (frames 97 to 120, 25 %, 16 samples), AgX checked; the prepared colour-bleeding study | [55:24](https://www.youtube.com/watch?v=03T-CArVSW4&t=3324s) Light that bounces carries colour |
+| [`w07_checkpoint_18_bounce_studies.blend`](checkpoints/w07_checkpoint_18_bounce_studies.blend) | Diffuse bounces and Fast GI compared in the studies scene | [57:26](https://www.youtube.com/watch?v=03T-CArVSW4&t=3446s) Where this scene's cost really is |
+| [`w07_checkpoint_19_render_cost_and_preview_size.blend`](checkpoints/w07_checkpoint_19_render_cost_and_preview_size.blend) | Render cost measured, previews at 50 % | [59:38](https://www.youtube.com/watch?v=03T-CArVSW4&t=3578s) The Texture Cache |
+| [`w07_checkpoint_20_texture_cache_notes.blend`](checkpoints/w07_checkpoint_20_texture_cache_notes.blend) | The Texture Cache settings read and noted | [1:00:45](https://www.youtube.com/watch?v=03T-CArVSW4&t=3645s) A texture-heavy test |
+| [`w07_checkpoint_21_simplify_and_memory_notes.blend`](checkpoints/w07_checkpoint_21_simplify_and_memory_notes.blend) | The texture test done, Simplify tried and noted | [1:03:49](https://www.youtube.com/watch?v=03T-CArVSW4&t=3829s) Time one representative frame |
+| [`w07_checkpoint_22_benchmark_and_forecast.blend`](checkpoints/w07_checkpoint_22_benchmark_and_forecast.blend) | Benchmark frame and the 240-frame forecast in the notes, version one saved | [1:06:08](https://www.youtube.com/watch?v=03T-CArVSW4&t=3968s) When the full render is too slow |
+| [`w07_checkpoint_23_full_move_checked.blend`](checkpoints/w07_checkpoint_23_full_move_checked.blend) | Frame range 1 to 240 and the motion camera checked | [1:07:03](https://www.youtube.com/watch?v=03T-CArVSW4&t=4023s) Full size and thumbnail |
+| [`w07_checkpoint_24_golden_hour_version_two.blend`](checkpoints/w07_checkpoint_24_golden_hour_version_two.blend) | Golden-hour version two saved | [1:10:47](https://www.youtube.com/watch?v=03T-CArVSW4&t=4247s) Questions to check your understanding |
 
-To build from the start (3:03), open `extras/w07_station_entry.blend` and save a working copy into `LumenCourse/blend`. Checkpoints 08 and 17 already hold the prepared studies; with your own file, run the matching script from [extras](extras/README.md).
+To build from the start ([3:03](https://www.youtube.com/watch?v=03T-CArVSW4&t=183s)), open `extras/w07_station_entry.blend` and save a working copy into `LumenCourse/blend`. Checkpoints 08 and 17 already hold the prepared studies; with your own file, run the matching script from [extras](extras/README.md).
 
 ## Check your scene
 
@@ -119,69 +121,69 @@ Render times in the video were measured on an NVIDIA RTX 5090; yours will differ
 <details>
 <summary>All 64 chapters of the video</summary>
 
-- 0:00 The image we are building
-- 0:46 Three problems, three different fixes
-- 1:46 Noise, thumbnail size and the starting file
-- 3:03 Goals in the file, and the courier selected
-- 4:02 The courier's arrival
-- 5:06 A hero camera, aligned to a chosen view
-- 6:20 Lens or position: what actually changes
-- 8:06 Composition guides and a recorded baseline
-- 9:34 Projection: two equal markers
-- 11:21 Clipping, occlusion and focus are different questions
-- 12:47 Start from darkness
-- 14:39 Three positions for one key
-- 15:29 Size, then a modest world
-- 16:31 The metal post needs something to reflect
-- 17:12 Download a free environment image
-- 18:00 The environment as a world
-- 19:45 A procedural sky that needs no file
-- 21:20 A Sun light and its angle
-- 22:46 Sky sun or Sun light in Cycles
-- 23:37 The same route in EEVEE
-- 24:21 Choose the route for this story
-- 26:08 Light direction on a matte plate
-- 27:15 Half the light at sixty degrees
-- 28:12 The same dot product as nodes
-- 29:22 Matching the diffuse sphere
-- 30:38 Distance from a point light
-- 31:50 A fill light, only where it is needed
-- 33:15 Light linking
-- 34:17 Remove what does not help
-- 34:49 Depth of field
-- 36:02 Motion blur, briefly
-- 36:15 A bounded volume
-- 37:29 The volume box
-- 38:53 Density, absorption and direction
-- 40:05 What the volume costs
-- 41:19 Version one, with its settings
-- 42:21 A reference render
-- 43:10 A render region and the first engine
-- 44:30 The same region in Cycles
-- 45:44 One EEVEE tracing control, then clear the region
-- 47:20 Samples and noise
-- 48:39 The denoiser
-- 49:31 One denoising stage, and aliasing
-- 50:36 Smoothing the steps
-- 51:19 A still is one frame: a short motion test
-- 52:41 Render a short slice
-- 54:19 From geometry to the picture on your screen
-- 55:24 Light that bounces carries colour
-- 56:29 Ambient occlusion is an approximation
-- 57:26 Where this scene's cost really is
-- 59:38 The Texture Cache
-- 1:00:45 A texture-heavy test
-- 1:02:22 Simplify
-- 1:03:08 When memory runs out
-- 1:03:49 Time one representative frame
-- 1:04:54 Forecast the sequence
-- 1:05:27 A provisional tier
-- 1:06:08 When the full render is too slow
-- 1:07:03 Full size and thumbnail
-- 1:08:05 A second deliberate treatment
-- 1:10:00 Compare the look and the cost
-- 1:10:47 Questions to check your understanding
-- 1:11:57 What comes next
+- [0:00](https://www.youtube.com/watch?v=03T-CArVSW4&t=0s) The image we are building
+- [0:46](https://www.youtube.com/watch?v=03T-CArVSW4&t=46s) Three problems, three different fixes
+- [1:46](https://www.youtube.com/watch?v=03T-CArVSW4&t=106s) Noise, thumbnail size and the starting file
+- [3:03](https://www.youtube.com/watch?v=03T-CArVSW4&t=183s) Goals in the file, and the courier selected
+- [4:02](https://www.youtube.com/watch?v=03T-CArVSW4&t=242s) The courier's arrival
+- [5:06](https://www.youtube.com/watch?v=03T-CArVSW4&t=306s) A hero camera, aligned to a chosen view
+- [6:20](https://www.youtube.com/watch?v=03T-CArVSW4&t=380s) Lens or position: what actually changes
+- [8:06](https://www.youtube.com/watch?v=03T-CArVSW4&t=486s) Composition guides and a recorded baseline
+- [9:34](https://www.youtube.com/watch?v=03T-CArVSW4&t=574s) Projection: two equal markers
+- [11:21](https://www.youtube.com/watch?v=03T-CArVSW4&t=681s) Clipping, occlusion and focus are different questions
+- [12:47](https://www.youtube.com/watch?v=03T-CArVSW4&t=767s) Start from darkness
+- [14:39](https://www.youtube.com/watch?v=03T-CArVSW4&t=879s) Three positions for one key
+- [15:29](https://www.youtube.com/watch?v=03T-CArVSW4&t=929s) Size, then a modest world
+- [16:31](https://www.youtube.com/watch?v=03T-CArVSW4&t=991s) The metal post needs something to reflect
+- [17:12](https://www.youtube.com/watch?v=03T-CArVSW4&t=1032s) Download a free environment image
+- [18:00](https://www.youtube.com/watch?v=03T-CArVSW4&t=1080s) The environment as a world
+- [19:45](https://www.youtube.com/watch?v=03T-CArVSW4&t=1185s) A procedural sky that needs no file
+- [21:20](https://www.youtube.com/watch?v=03T-CArVSW4&t=1280s) A Sun light and its angle
+- [22:46](https://www.youtube.com/watch?v=03T-CArVSW4&t=1366s) Sky sun or Sun light in Cycles
+- [23:37](https://www.youtube.com/watch?v=03T-CArVSW4&t=1417s) The same route in EEVEE
+- [24:21](https://www.youtube.com/watch?v=03T-CArVSW4&t=1461s) Choose the route for this story
+- [26:08](https://www.youtube.com/watch?v=03T-CArVSW4&t=1568s) Light direction on a matte plate
+- [27:15](https://www.youtube.com/watch?v=03T-CArVSW4&t=1635s) Half the light at sixty degrees
+- [28:12](https://www.youtube.com/watch?v=03T-CArVSW4&t=1692s) The same dot product as nodes
+- [29:22](https://www.youtube.com/watch?v=03T-CArVSW4&t=1762s) Matching the diffuse sphere
+- [30:38](https://www.youtube.com/watch?v=03T-CArVSW4&t=1838s) Distance from a point light
+- [31:50](https://www.youtube.com/watch?v=03T-CArVSW4&t=1910s) A fill light, only where it is needed
+- [33:15](https://www.youtube.com/watch?v=03T-CArVSW4&t=1995s) Light linking
+- [34:17](https://www.youtube.com/watch?v=03T-CArVSW4&t=2057s) Remove what does not help
+- [34:49](https://www.youtube.com/watch?v=03T-CArVSW4&t=2089s) Depth of field
+- [36:02](https://www.youtube.com/watch?v=03T-CArVSW4&t=2162s) Motion blur, briefly
+- [36:15](https://www.youtube.com/watch?v=03T-CArVSW4&t=2175s) A bounded volume
+- [37:29](https://www.youtube.com/watch?v=03T-CArVSW4&t=2249s) The volume box
+- [38:53](https://www.youtube.com/watch?v=03T-CArVSW4&t=2333s) Density, absorption and direction
+- [40:05](https://www.youtube.com/watch?v=03T-CArVSW4&t=2405s) What the volume costs
+- [41:19](https://www.youtube.com/watch?v=03T-CArVSW4&t=2479s) Version one, with its settings
+- [42:21](https://www.youtube.com/watch?v=03T-CArVSW4&t=2541s) A reference render
+- [43:10](https://www.youtube.com/watch?v=03T-CArVSW4&t=2590s) A render region and the first engine
+- [44:30](https://www.youtube.com/watch?v=03T-CArVSW4&t=2670s) The same region in Cycles
+- [45:44](https://www.youtube.com/watch?v=03T-CArVSW4&t=2744s) One EEVEE tracing control, then clear the region
+- [47:20](https://www.youtube.com/watch?v=03T-CArVSW4&t=2840s) Samples and noise
+- [48:39](https://www.youtube.com/watch?v=03T-CArVSW4&t=2919s) The denoiser
+- [49:31](https://www.youtube.com/watch?v=03T-CArVSW4&t=2971s) One denoising stage, and aliasing
+- [50:36](https://www.youtube.com/watch?v=03T-CArVSW4&t=3036s) Smoothing the steps
+- [51:19](https://www.youtube.com/watch?v=03T-CArVSW4&t=3079s) A still is one frame: a short motion test
+- [52:41](https://www.youtube.com/watch?v=03T-CArVSW4&t=3161s) Render a short slice
+- [54:19](https://www.youtube.com/watch?v=03T-CArVSW4&t=3259s) From geometry to the picture on your screen
+- [55:24](https://www.youtube.com/watch?v=03T-CArVSW4&t=3324s) Light that bounces carries colour
+- [56:29](https://www.youtube.com/watch?v=03T-CArVSW4&t=3389s) Ambient occlusion is an approximation
+- [57:26](https://www.youtube.com/watch?v=03T-CArVSW4&t=3446s) Where this scene's cost really is
+- [59:38](https://www.youtube.com/watch?v=03T-CArVSW4&t=3578s) The Texture Cache
+- [1:00:45](https://www.youtube.com/watch?v=03T-CArVSW4&t=3645s) A texture-heavy test
+- [1:02:22](https://www.youtube.com/watch?v=03T-CArVSW4&t=3742s) Simplify
+- [1:03:08](https://www.youtube.com/watch?v=03T-CArVSW4&t=3788s) When memory runs out
+- [1:03:49](https://www.youtube.com/watch?v=03T-CArVSW4&t=3829s) Time one representative frame
+- [1:04:54](https://www.youtube.com/watch?v=03T-CArVSW4&t=3894s) Forecast the sequence
+- [1:05:27](https://www.youtube.com/watch?v=03T-CArVSW4&t=3927s) A provisional tier
+- [1:06:08](https://www.youtube.com/watch?v=03T-CArVSW4&t=3968s) When the full render is too slow
+- [1:07:03](https://www.youtube.com/watch?v=03T-CArVSW4&t=4023s) Full size and thumbnail
+- [1:08:05](https://www.youtube.com/watch?v=03T-CArVSW4&t=4085s) A second deliberate treatment
+- [1:10:00](https://www.youtube.com/watch?v=03T-CArVSW4&t=4200s) Compare the look and the cost
+- [1:10:47](https://www.youtube.com/watch?v=03T-CArVSW4&t=4247s) Questions to check your understanding
+- [1:11:57](https://www.youtube.com/watch?v=03T-CArVSW4&t=4317s) What comes next
 
 </details>
 

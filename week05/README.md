@@ -2,9 +2,11 @@
 
 Build the Lumen Field Station’s material palette and test paint, rubber, metal, glass and procedural surfaces under controlled light. The lecture explains shared materials and face slots, Principled controls, node connections, reusable groups, roughness, bump, displacement, thin sheets and color management. Separate studies keep each comparison visible.
 
-![The completed Lecture 5 station](preview.jpg)
+[![Watch Lecture 5 on YouTube](https://img.youtube.com/vi/yW_8-3yHAjU/maxresdefault.jpg)](https://www.youtube.com/watch?v=yW_8-3yHAjU)
 
-The lecture is 1:12:51. Its video link will be added when published. [Full course playlist](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg) · [course overview](https://github.com/FurkanGozukara/Blender-Full-Tutorial-Lecture-2026-2027) · [concept guide](LECTURE_05_GUIDE.md)
+**Watch on YouTube:** [Build Better Blender Shaders: Nodes, Mapping and Reusable Material Groups | Lecture 5](https://www.youtube.com/watch?v=yW_8-3yHAjU) (1:12:51) · [the full course playlist](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg) · [course overview and all 14 lectures](../README.md)
+
+Every time in this README opens the video at that moment.
 
 ## Open and continue
 
@@ -18,19 +20,19 @@ Times identify the beginning of the save instruction. The saved result includes 
 
 | File | Save instruction |
 |---|---|
-| [w05_slots_result.blend](LumenCourse/blend/w05_slots_result.blend) | 8:18 |
-| [w05_station_materials.blend](LumenCourse/blend/w05_station_materials.blend) | 10:49 |
-| [w05_station_palette.blend](LumenCourse/blend/w05_station_palette.blend) | 20:56 |
-| [w05_surface_variation.blend](LumenCourse/blend/w05_surface_variation.blend) | 35:08 |
-| [w05_station_surface_detail.blend](LumenCourse/blend/w05_station_surface_detail.blend) | 41:57 |
-| [w05_displacement_comparison.blend](LumenCourse/blend/w05_displacement_comparison.blend) | 45:25 |
-| [w05_stylized_light.blend](LumenCourse/blend/w05_stylized_light.blend) | 49:21 |
-| [w05_station_v001.blend](LumenCourse/blend/w05_station_v001.blend) | 50:42 |
-| [w05_thinwall_tag_study.blend](LumenCourse/blend/w05_thinwall_tag_study.blend) | 56:29 |
-| [w05_color_pipeline.blend](LumenCourse/blend/w05_color_pipeline.blend) | 1:00:35 |
-| [w05_reference_recreation.blend](LumenCourse/blend/w05_reference_recreation.blend) | 1:07:31 |
-| [w05_procedural_and_images.blend](LumenCourse/blend/w05_procedural_and_images.blend) | 1:10:24 |
-| [w05_station_final.blend](LumenCourse/blend/w05_station_final.blend) | 1:12:17 |
+| [w05_slots_result.blend](LumenCourse/blend/w05_slots_result.blend) | [8:18](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=498s) |
+| [w05_station_materials.blend](LumenCourse/blend/w05_station_materials.blend) | [10:49](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=649s) |
+| [w05_station_palette.blend](LumenCourse/blend/w05_station_palette.blend) | [20:56](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=1256s) |
+| [w05_surface_variation.blend](LumenCourse/blend/w05_surface_variation.blend) | [35:08](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=2108s) |
+| [w05_station_surface_detail.blend](LumenCourse/blend/w05_station_surface_detail.blend) | [41:57](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=2517s) |
+| [w05_displacement_comparison.blend](LumenCourse/blend/w05_displacement_comparison.blend) | [45:25](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=2725s) |
+| [w05_stylized_light.blend](LumenCourse/blend/w05_stylized_light.blend) | [49:21](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=2961s) |
+| [w05_station_v001.blend](LumenCourse/blend/w05_station_v001.blend) | [50:42](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3042s) |
+| [w05_thinwall_tag_study.blend](LumenCourse/blend/w05_thinwall_tag_study.blend) | [56:29](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3389s) |
+| [w05_color_pipeline.blend](LumenCourse/blend/w05_color_pipeline.blend) | [1:00:35](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3635s) |
+| [w05_reference_recreation.blend](LumenCourse/blend/w05_reference_recreation.blend) | [1:07:31](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=4051s) |
+| [w05_procedural_and_images.blend](LumenCourse/blend/w05_procedural_and_images.blend) | [1:10:24](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=4224s) |
+| [w05_station_final.blend](LumenCourse/blend/w05_station_final.blend) | [1:12:17](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=4337s) |
 
 [Final station render](LumenCourse/renders/w05_material_overview_final.png) · [all texture dependencies](LumenCourse/textures/)
 
@@ -40,35 +42,35 @@ Each checkpoint is the state after its named chapter. Open it, save a personal c
 
 | Checkpoint | Completed step | Continue at |
 |---|---|---|
-| [01](checkpoints/w05_checkpoint_01_read_a_surface_under_fixed_light.blend) | Read a surface under fixed light | 2:30 |
-| [02](checkpoints/w05_checkpoint_02_make_the_preview_lighting_explicit.blend) | Make the preview lighting explicit | 3:58 |
-| [03](checkpoints/w05_checkpoint_03_create_and_share_the_painted_housing.blend) | Create and share the painted housing | 6:35 |
-| [04](checkpoints/w05_checkpoint_04_make_a_deliberate_copy_and_teach_material_slots.blend) | Make a deliberate copy and teach material slots | 7:20 |
-| [05](checkpoints/w05_checkpoint_05_assign_a_material_to_a_face_region.blend) | Assign a material to a face region | 8:33 |
-| [06](checkpoints/w05_checkpoint_06_give_the_courier_rubber_and_the_fitting_metal.blend) | Give the courier rubber and the fitting metal | 11:04 |
-| [07](checkpoints/w05_checkpoint_07_isolate_paint_and_metal_response.blend) | Isolate paint and metal response | 14:10 |
-| [08](checkpoints/w05_checkpoint_08_separate_coating_from_the_underlying_surface.blend) | Separate coating from the underlying surface | 15:25 |
-| [09](checkpoints/w05_checkpoint_09_inspect_thick_transmission.blend) | Inspect thick transmission | 17:36 |
-| [10](checkpoints/w05_checkpoint_10_use_subsurface_scattering_at_the_object_scale.blend) | Use subsurface scattering at the object scale | 19:34 |
-| [11](checkpoints/w05_checkpoint_11_refine_the_station_signal_and_material_families.blend) | Refine the station signal and material families | 21:14 |
-| [12](checkpoints/w05_checkpoint_12_connect_coordinates_mapping_and_noise_by_hand.blend) | Connect coordinates, mapping and noise by hand | 24:00 |
-| [13](checkpoints/w05_checkpoint_13_predict_the_direction_of_coordinate_scaling.blend) | Predict the direction of coordinate scaling | 25:34 |
-| [14](checkpoints/w05_checkpoint_14_convert_a_scalar_into_a_controlled_range.blend) | Convert a scalar into a controlled range | 29:16 |
-| [15](checkpoints/w05_checkpoint_15_name_the_arithmetic_and_mixing_utilities.blend) | Name the arithmetic and mixing utilities | 31:41 |
-| [16](checkpoints/w05_checkpoint_16_package_the_understood_roughness_branch.blend) | Package the understood roughness branch | 35:25 |
-| [17](checkpoints/w05_checkpoint_17_give_the_rock_restrained_roughness_and_bump.blend) | Give the rock restrained roughness and bump | 39:49 |
-| [18](checkpoints/w05_checkpoint_18_compare_cloudy_and_cellular_patterns.blend) | Compare cloudy and cellular patterns | 42:15 |
-| [19](checkpoints/w05_checkpoint_19_compare_bump_with_actual_displaced_geometry.blend) | Compare bump with actual displaced geometry | 45:42 |
-| [20](checkpoints/w05_checkpoint_20_build_a_separate_banded_light_material.blend) | Build a separate banded-light material | 49:38 |
-| [21](checkpoints/w05_checkpoint_21_save_the_material_baseline.blend) | Save the material baseline | 51:00 |
-| [22](checkpoints/w05_checkpoint_22_read_the_thin_sheet_geometry_before_enabling_thin_wall.blend) | Read the thin-sheet geometry before enabling Thin Wall | 53:59 |
-| [23](checkpoints/w05_checkpoint_23_transfer_the_sheet_material_and_keep_an_opaque_fallback.blend) | Transfer the sheet material and keep an opaque fallback | 56:46 |
-| [24](checkpoints/w05_checkpoint_24_separate_rendered_values_from_their_display.blend) | Separate rendered values from their display | 59:27 |
-| [25](checkpoints/w05_checkpoint_25_interpret_textures_and_preserve_the_working_space.blend) | Interpret textures and preserve the working space | 1:00:52 |
-| [26](checkpoints/w05_checkpoint_26_judge_the_palette_at_the_size_it_will_be_seen.blend) | Judge the palette at the size it will be seen | 1:01:56 |
-| [27](checkpoints/w05_checkpoint_27_diagnose_the_surface_before_changing_a_random_slider.blend) | Diagnose the surface before changing a random slider | 1:03:38 |
-| [28](checkpoints/w05_checkpoint_28_recreate_the_broad_qualities_of_an_original_reference.blend) | Recreate the broad qualities of an original reference | 1:07:50 |
-| [29](checkpoints/w05_checkpoint_29_compare_procedural_nodes_with_saved_image_maps.blend) | Compare procedural nodes with saved image maps | 1:10:41 |
+| [01](checkpoints/w05_checkpoint_01_read_a_surface_under_fixed_light.blend) | Read a surface under fixed light | [2:30](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=150s) |
+| [02](checkpoints/w05_checkpoint_02_make_the_preview_lighting_explicit.blend) | Make the preview lighting explicit | [3:58](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=238s) |
+| [03](checkpoints/w05_checkpoint_03_create_and_share_the_painted_housing.blend) | Create and share the painted housing | [6:35](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=395s) |
+| [04](checkpoints/w05_checkpoint_04_make_a_deliberate_copy_and_teach_material_slots.blend) | Make a deliberate copy and teach material slots | [7:20](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=440s) |
+| [05](checkpoints/w05_checkpoint_05_assign_a_material_to_a_face_region.blend) | Assign a material to a face region | [8:33](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=513s) |
+| [06](checkpoints/w05_checkpoint_06_give_the_courier_rubber_and_the_fitting_metal.blend) | Give the courier rubber and the fitting metal | [11:04](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=664s) |
+| [07](checkpoints/w05_checkpoint_07_isolate_paint_and_metal_response.blend) | Isolate paint and metal response | [14:10](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=850s) |
+| [08](checkpoints/w05_checkpoint_08_separate_coating_from_the_underlying_surface.blend) | Separate coating from the underlying surface | [15:25](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=925s) |
+| [09](checkpoints/w05_checkpoint_09_inspect_thick_transmission.blend) | Inspect thick transmission | [17:36](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=1056s) |
+| [10](checkpoints/w05_checkpoint_10_use_subsurface_scattering_at_the_object_scale.blend) | Use subsurface scattering at the object scale | [19:34](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=1174s) |
+| [11](checkpoints/w05_checkpoint_11_refine_the_station_signal_and_material_families.blend) | Refine the station signal and material families | [21:14](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=1274s) |
+| [12](checkpoints/w05_checkpoint_12_connect_coordinates_mapping_and_noise_by_hand.blend) | Connect coordinates, mapping and noise by hand | [24:00](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=1440s) |
+| [13](checkpoints/w05_checkpoint_13_predict_the_direction_of_coordinate_scaling.blend) | Predict the direction of coordinate scaling | [25:34](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=1534s) |
+| [14](checkpoints/w05_checkpoint_14_convert_a_scalar_into_a_controlled_range.blend) | Convert a scalar into a controlled range | [29:16](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=1756s) |
+| [15](checkpoints/w05_checkpoint_15_name_the_arithmetic_and_mixing_utilities.blend) | Name the arithmetic and mixing utilities | [31:41](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=1901s) |
+| [16](checkpoints/w05_checkpoint_16_package_the_understood_roughness_branch.blend) | Package the understood roughness branch | [35:25](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=2125s) |
+| [17](checkpoints/w05_checkpoint_17_give_the_rock_restrained_roughness_and_bump.blend) | Give the rock restrained roughness and bump | [39:49](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=2389s) |
+| [18](checkpoints/w05_checkpoint_18_compare_cloudy_and_cellular_patterns.blend) | Compare cloudy and cellular patterns | [42:15](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=2535s) |
+| [19](checkpoints/w05_checkpoint_19_compare_bump_with_actual_displaced_geometry.blend) | Compare bump with actual displaced geometry | [45:42](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=2742s) |
+| [20](checkpoints/w05_checkpoint_20_build_a_separate_banded_light_material.blend) | Build a separate banded-light material | [49:38](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=2978s) |
+| [21](checkpoints/w05_checkpoint_21_save_the_material_baseline.blend) | Save the material baseline | [51:00](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3060s) |
+| [22](checkpoints/w05_checkpoint_22_read_the_thin_sheet_geometry_before_enabling_thin_wall.blend) | Read the thin-sheet geometry before enabling Thin Wall | [53:59](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3239s) |
+| [23](checkpoints/w05_checkpoint_23_transfer_the_sheet_material_and_keep_an_opaque_fallback.blend) | Transfer the sheet material and keep an opaque fallback | [56:46](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3406s) |
+| [24](checkpoints/w05_checkpoint_24_separate_rendered_values_from_their_display.blend) | Separate rendered values from their display | [59:27](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3567s) |
+| [25](checkpoints/w05_checkpoint_25_interpret_textures_and_preserve_the_working_space.blend) | Interpret textures and preserve the working space | [1:00:52](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3652s) |
+| [26](checkpoints/w05_checkpoint_26_judge_the_palette_at_the_size_it_will_be_seen.blend) | Judge the palette at the size it will be seen | [1:01:56](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3716s) |
+| [27](checkpoints/w05_checkpoint_27_diagnose_the_surface_before_changing_a_random_slider.blend) | Diagnose the surface before changing a random slider | [1:03:38](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3818s) |
+| [28](checkpoints/w05_checkpoint_28_recreate_the_broad_qualities_of_an_original_reference.blend) | Recreate the broad qualities of an original reference | [1:07:50](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=4070s) |
+| [29](checkpoints/w05_checkpoint_29_compare_procedural_nodes_with_saved_image_maps.blend) | Compare procedural nodes with saved image maps | [1:10:41](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=4241s) |
 | [30](checkpoints/w05_checkpoint_30_preview_uvs_and_preserve_the_next_lecture_s_inputs.blend) | Preview UVs and preserve the next lecture’s inputs | Lecture complete; keep for Lecture 6 |
 
 ## Check the final station
@@ -133,36 +135,36 @@ Light energy units depend on the light type; these are direct Blender RNA values
 
 ## Chapters
 
-- 0:00 Read a surface under fixed light
-- 2:30 Make the preview lighting explicit
-- 3:58 Create and share the painted housing
-- 6:35 Make a deliberate copy and teach material slots
-- 7:20 Assign a material to a face region
-- 8:33 Give the courier rubber and the fitting metal
-- 11:04 Isolate paint and metal response
-- 14:10 Separate coating from the underlying surface
-- 15:25 Inspect thick transmission
-- 17:36 Use subsurface scattering at the object scale
-- 19:34 Refine the station signal and material families
-- 21:14 Connect coordinates, mapping and noise by hand
-- 24:00 Predict the direction of coordinate scaling
-- 25:34 Convert a scalar into a controlled range
-- 29:16 Name the arithmetic and mixing utilities
-- 31:41 Package the understood roughness branch
-- 35:25 Give the rock restrained roughness and bump
-- 39:49 Compare cloudy and cellular patterns
-- 42:15 Compare bump with actual displaced geometry
-- 45:42 Build a separate banded-light material
-- 49:38 Save the material baseline
-- 51:00 Read the thin-sheet geometry before enabling Thin Wall
-- 53:59 Transfer the sheet material and keep an opaque fallback
-- 56:46 Separate rendered values from their display
-- 59:27 Interpret textures and preserve the working space
-- 1:00:52 Judge the palette at the size it will be seen
-- 1:01:56 Diagnose the surface before changing a random slider
-- 1:03:38 Recreate the broad qualities of an original reference
-- 1:07:50 Compare procedural nodes with saved image maps
-- 1:10:41 Preview UVs and preserve the next lecture’s inputs
+- [0:00](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=0s) Read a surface under fixed light
+- [2:30](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=150s) Make the preview lighting explicit
+- [3:58](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=238s) Create and share the painted housing
+- [6:35](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=395s) Make a deliberate copy and teach material slots
+- [7:20](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=440s) Assign a material to a face region
+- [8:33](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=513s) Give the courier rubber and the fitting metal
+- [11:04](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=664s) Isolate paint and metal response
+- [14:10](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=850s) Separate coating from the underlying surface
+- [15:25](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=925s) Inspect thick transmission
+- [17:36](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=1056s) Use subsurface scattering at the object scale
+- [19:34](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=1174s) Refine the station signal and material families
+- [21:14](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=1274s) Connect coordinates, mapping and noise by hand
+- [24:00](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=1440s) Predict the direction of coordinate scaling
+- [25:34](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=1534s) Convert a scalar into a controlled range
+- [29:16](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=1756s) Name the arithmetic and mixing utilities
+- [31:41](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=1901s) Package the understood roughness branch
+- [35:25](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=2125s) Give the rock restrained roughness and bump
+- [39:49](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=2389s) Compare cloudy and cellular patterns
+- [42:15](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=2535s) Compare bump with actual displaced geometry
+- [45:42](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=2742s) Build a separate banded-light material
+- [49:38](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=2978s) Save the material baseline
+- [51:00](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3060s) Read the thin-sheet geometry before enabling Thin Wall
+- [53:59](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3239s) Transfer the sheet material and keep an opaque fallback
+- [56:46](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3406s) Separate rendered values from their display
+- [59:27](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3567s) Interpret textures and preserve the working space
+- [1:00:52](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3652s) Judge the palette at the size it will be seen
+- [1:01:56](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3716s) Diagnose the surface before changing a random slider
+- [1:03:38](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=3818s) Recreate the broad qualities of an original reference
+- [1:07:50](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=4070s) Compare procedural nodes with saved image maps
+- [1:10:41](https://www.youtube.com/watch?v=yW_8-3yHAjU&t=4241s) Preview UVs and preserve the next lecture’s inputs
 
 ## Links and next lecture
 

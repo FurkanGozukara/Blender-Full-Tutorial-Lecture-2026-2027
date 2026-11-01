@@ -2,9 +2,11 @@
 
 Give the Lumen Field Station housing an authored label and its rock a baked texture set. The lecture unwraps the panel, the lid and the rock receiver, paints and saves a label, bakes a normal map and a base color from a high-detail source, adds roughness and metallic maps, a transparent decal and a two-tile UDIM image, and checks that every saved image reopens.
 
-![The completed Lecture 6 station](preview.jpg)
+[![Watch Lecture 6 on YouTube](https://img.youtube.com/vi/SHUYYPLoz8M/maxresdefault.jpg)](https://www.youtube.com/watch?v=SHUYYPLoz8M)
 
-The lecture is 1:02:39. Its video link will be added when published. [Full course playlist](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg) · [course overview](https://github.com/FurkanGozukara/Blender-Full-Tutorial-Lecture-2026-2027) · [concept guide](LECTURE_06_GUIDE.md)
+**Watch on YouTube:** [Blender UV Unwrapping Explained: Seams, Islands and Clean Layouts | Lecture 6](https://www.youtube.com/watch?v=SHUYYPLoz8M) (1:02:39) · [the full course playlist](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg) · [course overview and all 14 lectures](../README.md)
+
+Every time in this README opens the video at that moment.
 
 ## Open and continue
 
@@ -18,16 +20,16 @@ Times identify the beginning of the save instruction. The saved result includes 
 
 | File | Save instruction |
 |---|---|
-| [station_label_color.png](LumenCourse/textures/station_label_color.png) | 13:29 blank image, 20:00 painted label, 22:07 wear marks (the file is the last version) |
-| [w06_station_v001.blend](LumenCourse/blend/w06_station_v001.blend) | 20:14 |
-| [w06_station_prebake.blend](LumenCourse/blend/w06_station_prebake.blend) | 27:47 |
-| [rock_normal.png](LumenCourse/textures/rock_normal.png) | 30:36 |
-| [rock_basecolor.png](LumenCourse/textures/rock_basecolor.png) | 38:16 |
-| [rock_roughness.png](LumenCourse/textures/rock_roughness.png) | 42:28 |
-| [rock_metallic.png](LumenCourse/textures/rock_metallic.png) | 43:54 |
-| [station_decal.png](LumenCourse/textures/station_decal.png) | 49:52 |
-| [station_tiles.1001.png](LumenCourse/textures/station_tiles.1001.png) and [station_tiles.1002.png](LumenCourse/textures/station_tiles.1002.png) | 53:30 |
-| [w06_station_final.blend](LumenCourse/blend/w06_station_final.blend) | 1:00:43 |
+| [station_label_color.png](LumenCourse/textures/station_label_color.png) | [13:29](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=809s) blank image, [20:00](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=1200s) painted label, [22:07](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=1327s) wear marks (the file is the last version) |
+| [w06_station_v001.blend](LumenCourse/blend/w06_station_v001.blend) | [20:14](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=1214s) |
+| [w06_station_prebake.blend](LumenCourse/blend/w06_station_prebake.blend) | [27:47](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=1667s) |
+| [rock_normal.png](LumenCourse/textures/rock_normal.png) | [30:36](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=1836s) |
+| [rock_basecolor.png](LumenCourse/textures/rock_basecolor.png) | [38:16](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=2296s) |
+| [rock_roughness.png](LumenCourse/textures/rock_roughness.png) | [42:28](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=2548s) |
+| [rock_metallic.png](LumenCourse/textures/rock_metallic.png) | [43:54](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=2634s) |
+| [station_decal.png](LumenCourse/textures/station_decal.png) | [49:52](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=2992s) |
+| [station_tiles.1001.png](LumenCourse/textures/station_tiles.1001.png) and [station_tiles.1002.png](LumenCourse/textures/station_tiles.1002.png) | [53:30](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=3210s) |
+| [w06_station_final.blend](LumenCourse/blend/w06_station_final.blend) | [1:00:43](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=3643s) |
 
 All images are in [LumenCourse/textures](LumenCourse/textures/); the scenes are in [LumenCourse/blend](LumenCourse/blend/). `w06_station_v001.blend`, checkpoint 4 and checkpoint 5 hold the label as painted in part 4 inside the scene file; `station_label_color.png` is the later version with the wear marks, which the scenes of parts 6 to 8 read.
 
@@ -37,13 +39,13 @@ Each checkpoint is the state at the end of its lecture part. Open it, save a per
 
 | Checkpoint | Completed step | Continue at |
 |---|---|---|
-| [01](checkpoints/w06_checkpoint_01_texture_contract_start.blend) | Texture contract and the checker | 2:54 |
-| [02](checkpoints/w06_checkpoint_02_seams_and_unwrap.blend) | Seams and unwrap | 9:12 |
-| [03](checkpoints/w06_checkpoint_03_checked_and_packed_uvs.blend) | Packed and shared coordinates | 12:59 |
-| [04](checkpoints/w06_checkpoint_04_painted_label.blend) | Painted label | 19:44 |
-| [05](checkpoints/w06_checkpoint_05_saved_scene_and_pixels.blend) | Saved scene and external pixels | 21:22 |
-| [06](checkpoints/w06_checkpoint_06_aligned_bake_receiver.blend) | Aligned bake receiver | 28:10 |
-| [07](checkpoints/w06_checkpoint_07_baked_maps_decal_and_udim.blend) | Baked texture set, transparent decal and two-tile variation | 55:08 |
+| [01](checkpoints/w06_checkpoint_01_texture_contract_start.blend) | Texture contract and the checker | [2:54](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=174s) |
+| [02](checkpoints/w06_checkpoint_02_seams_and_unwrap.blend) | Seams and unwrap | [9:12](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=552s) |
+| [03](checkpoints/w06_checkpoint_03_checked_and_packed_uvs.blend) | Packed and shared coordinates | [12:59](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=779s) |
+| [04](checkpoints/w06_checkpoint_04_painted_label.blend) | Painted label | [19:44](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=1184s) |
+| [05](checkpoints/w06_checkpoint_05_saved_scene_and_pixels.blend) | Saved scene and external pixels | [21:22](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=1282s) |
+| [06](checkpoints/w06_checkpoint_06_aligned_bake_receiver.blend) | Aligned bake receiver | [28:10](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=1690s) |
+| [07](checkpoints/w06_checkpoint_07_baked_maps_decal_and_udim.blend) | Baked texture set, transparent decal and two-tile variation | [55:08](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=3308s) |
 | [08](checkpoints/w06_checkpoint_08_final_dependency_checked_station.blend) | Final dependency-checked station | Lecture complete; keep for Lecture 7 |
 
 ## Check the final station
@@ -106,30 +108,30 @@ Light energy units depend on the light type; these are direct Blender RNA values
 
 ## Chapters
 
-- 0:00 Geometry, coordinates, pixels and interpretation
-- 2:54 Choose cuts around a continuous label face
-- 5:20 Read selections and move coordinates deliberately
-- 6:37 Use automatic cuts where they suit the asset
-- 9:12 Orient, normalize and pack the panel layout
-- 10:51 Distinguish shared decoration from unique texture space
-- 12:59 Give the label its own color image
-- 14:50 Paint a small original station graphic
-- 17:20 Choose pixels or editable text for the job
-- 19:44 Save pixels and scene state explicitly
-- 21:22 Add wear in surface and image space
-- 22:23 Preserve the editable low mesh and its assumptions
-- 26:15 Create an explicit normal bake target
-- 28:10 Run the controlled high-to-low normal bake
-- 31:00 Interpret the normal image and inspect its limits
-- 34:01 Author a procedural color source on the same rock
-- 36:36 Bake color without baking the lighting
-- 40:11 Paint a roughness image as scalar data
-- 43:41 Complete and reopen the four-map set
-- 46:50 Paint and connect a separate transparent decal
-- 50:47 Create, save and reopen two UDIM tiles
-- 55:08 Transfer the seam reasoning to the shallow lid
-- 58:23 Trace the saved label and normal connections
-- 1:00:05 Reopen the dependency-complete station
+- [0:00](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=0s) Geometry, coordinates, pixels and interpretation
+- [2:54](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=174s) Choose cuts around a continuous label face
+- [5:20](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=320s) Read selections and move coordinates deliberately
+- [6:37](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=397s) Use automatic cuts where they suit the asset
+- [9:12](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=552s) Orient, normalize and pack the panel layout
+- [10:51](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=651s) Distinguish shared decoration from unique texture space
+- [12:59](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=779s) Give the label its own color image
+- [14:50](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=890s) Paint a small original station graphic
+- [17:20](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=1040s) Choose pixels or editable text for the job
+- [19:44](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=1184s) Save pixels and scene state explicitly
+- [21:22](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=1282s) Add wear in surface and image space
+- [22:23](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=1343s) Preserve the editable low mesh and its assumptions
+- [26:15](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=1575s) Create an explicit normal bake target
+- [28:10](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=1690s) Run the controlled high-to-low normal bake
+- [31:00](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=1860s) Interpret the normal image and inspect its limits
+- [34:01](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=2041s) Author a procedural color source on the same rock
+- [36:36](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=2196s) Bake color without baking the lighting
+- [40:11](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=2411s) Paint a roughness image as scalar data
+- [43:41](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=2621s) Complete and reopen the four-map set
+- [46:50](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=2810s) Paint and connect a separate transparent decal
+- [50:47](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=3047s) Create, save and reopen two UDIM tiles
+- [55:08](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=3308s) Transfer the seam reasoning to the shallow lid
+- [58:23](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=3503s) Trace the saved label and normal connections
+- [1:00:05](https://www.youtube.com/watch?v=SHUYYPLoz8M&t=3605s) Reopen the dependency-complete station
 
 ## Links and next lecture
 

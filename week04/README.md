@@ -2,11 +2,11 @@
 
 Continue the Lumen Field Station with sculpted terrain and a rock pair. Compare brush behavior and mesh resolution, protect regions with masks, preserve aligned low/high baking meshes, and build local quad patches for a rock and an independent character study.
 
-![The Lumen Field Station with sculpted additions](preview.jpg)
+[![Watch Lecture 4 on YouTube](https://img.youtube.com/vi/pq-NTYii6w8/maxresdefault.jpg)](https://www.youtube.com/watch?v=pq-NTYii6w8)
 
-**Video:** planned · **Lecture length:** 1:10:44 · [full course playlist](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg) · [course overview](../README.md)
+**Watch on YouTube:** [Blender Full Course - Lecture 4: Sculpt Terrain, Rocks and Organic Forms](https://www.youtube.com/watch?v=pq-NTYii6w8) (1:10:45) · [the full course playlist](https://www.youtube.com/playlist?list=PLYUs-JVhJLWg) · [course overview and all 14 lectures](../README.md)
 
-Times refer to the completed lecture. Watch links will be added when the video is public.
+Every time in this README opens the video at that moment.
 
 ## Start here
 
@@ -20,24 +20,24 @@ Recorded with **Blender 5.2.2 LTS**, the local Essentials brush assets and a mou
 
 | File | Purpose | Shown at |
 |---|---|---|
-| [`extras/w04_inputs.blend`](extras/w04_inputs.blend) | Lecture 3 station with original blank sculpt and topology practice inputs. | 2:54 |
-| [`extras/w04_opening.blend`](extras/w04_opening.blend) | Primary, secondary and tertiary form comparison shown in the opening. | 0:00 |
-| [`extras/create_week04_studies.py`](extras/create_week04_studies.py) | Optional script for recreating the supplied practice meshes from the Lecture 3 station. | 2:54 |
-| [`extras/README.md`](extras/README.md) | Practice-mesh license and free Essentials brush route. | 2:54 |
-| [`LECTURE_04_GUIDE.md`](LECTURE_04_GUIDE.md) | Concepts, numeric settings, shortcuts, checkpoints and comparison questions. | 0:00 |
-| [`LumenCourse/blend/w04_station_v001.blend`](LumenCourse/blend/w04_station_v001.blend) | Working copy of the station before sculpting. | 3:22 |
-| [`LumenCourse/blend/w04_terrain_v001.blend`](LumenCourse/blend/w04_terrain_v001.blend) | Sculpted terrain before the mesh-resolution studies. | 10:37 |
-| [`LumenCourse/blend/w04_rock_low_v001.blend`](LumenCourse/blend/w04_rock_low_v001.blend) | Broad rock form with ridge and recess, before high-detail work. | 25:34 |
-| [`LumenCourse/blend/w04_rock_masked_v001.blend`](LumenCourse/blend/w04_rock_masked_v001.blend) | Protected-form checkpoint after masking, hidden geometry and face sets. | 33:18 |
-| [`LumenCourse/blend/w04_bake_pair_v001.blend`](LumenCourse/blend/w04_bake_pair_v001.blend) | Aligned low receiver and detailed high source for later baking. | 39:11 |
-| [`LumenCourse/blend/w04_retopology_v001.blend`](LumenCourse/blend/w04_retopology_v001.blend) | Local quad patch with a Shrinkwrap target and inspected offset. | 51:50 |
-| [`LumenCourse/blend/w04_head_blockout_v001.blend`](LumenCourse/blend/w04_head_blockout_v001.blend) | Independent coarse head blockout, ready for the eyelid study. | 57:23 |
-| [`LumenCourse/blend/w04_head_eyelid_neutral_v001.blend`](LumenCourse/blend/w04_head_eyelid_neutral_v001.blend) | Neutral head and eyelid strip preserved for the later shape-key lesson. | 1:03:03 |
-| [`LumenCourse/blend/w04_station_v002.blend`](LumenCourse/blend/w04_station_v002.blend) | Saved and reopened final station for the Lecture 5 continuation. | 1:07:29 |
-| [`extras/w04_bake_low_inspection.png`](extras/w04_bake_low_inspection.png) | Full-resolution low receiver in the same view as the high source. | 38:28 |
-| [`extras/w04_bake_pair_inspection.png`](extras/w04_bake_pair_inspection.png) | Full-resolution high source showing two interior grooves and unchanged alignment. | 38:57 |
+| [`extras/w04_inputs.blend`](extras/w04_inputs.blend) | Lecture 3 station with original blank sculpt and topology practice inputs. | [2:54](https://www.youtube.com/watch?v=pq-NTYii6w8&t=174s) |
+| [`extras/w04_opening.blend`](extras/w04_opening.blend) | Primary, secondary and tertiary form comparison shown in the opening. | [0:00](https://www.youtube.com/watch?v=pq-NTYii6w8&t=0s) |
+| [`extras/create_week04_studies.py`](extras/create_week04_studies.py) | Optional script for recreating the supplied practice meshes from the Lecture 3 station. | [2:54](https://www.youtube.com/watch?v=pq-NTYii6w8&t=174s) |
+| [`extras/README.md`](extras/README.md) | Practice-mesh license and free Essentials brush route. | [2:54](https://www.youtube.com/watch?v=pq-NTYii6w8&t=174s) |
+| [`LECTURE_04_GUIDE.md`](LECTURE_04_GUIDE.md) | Concepts, numeric settings, shortcuts, checkpoints and comparison questions. | [0:00](https://www.youtube.com/watch?v=pq-NTYii6w8&t=0s) |
+| [`LumenCourse/blend/w04_station_v001.blend`](LumenCourse/blend/w04_station_v001.blend) | Working copy of the station before sculpting. | [3:22](https://www.youtube.com/watch?v=pq-NTYii6w8&t=202s) |
+| [`LumenCourse/blend/w04_terrain_v001.blend`](LumenCourse/blend/w04_terrain_v001.blend) | Sculpted terrain before the mesh-resolution studies. | [10:37](https://www.youtube.com/watch?v=pq-NTYii6w8&t=637s) |
+| [`LumenCourse/blend/w04_rock_low_v001.blend`](LumenCourse/blend/w04_rock_low_v001.blend) | Broad rock form with ridge and recess, before high-detail work. | [25:34](https://www.youtube.com/watch?v=pq-NTYii6w8&t=1534s) |
+| [`LumenCourse/blend/w04_rock_masked_v001.blend`](LumenCourse/blend/w04_rock_masked_v001.blend) | Protected-form checkpoint after masking, hidden geometry and face sets. | [33:18](https://www.youtube.com/watch?v=pq-NTYii6w8&t=1998s) |
+| [`LumenCourse/blend/w04_bake_pair_v001.blend`](LumenCourse/blend/w04_bake_pair_v001.blend) | Aligned low receiver and detailed high source for later baking. | [39:11](https://www.youtube.com/watch?v=pq-NTYii6w8&t=2351s) |
+| [`LumenCourse/blend/w04_retopology_v001.blend`](LumenCourse/blend/w04_retopology_v001.blend) | Local quad patch with a Shrinkwrap target and inspected offset. | [51:50](https://www.youtube.com/watch?v=pq-NTYii6w8&t=3110s) |
+| [`LumenCourse/blend/w04_head_blockout_v001.blend`](LumenCourse/blend/w04_head_blockout_v001.blend) | Independent coarse head blockout, ready for the eyelid study. | [57:23](https://www.youtube.com/watch?v=pq-NTYii6w8&t=3443s) |
+| [`LumenCourse/blend/w04_head_eyelid_neutral_v001.blend`](LumenCourse/blend/w04_head_eyelid_neutral_v001.blend) | Neutral head and eyelid strip preserved for the later shape-key lesson. | [1:03:03](https://www.youtube.com/watch?v=pq-NTYii6w8&t=3783s) |
+| [`LumenCourse/blend/w04_station_v002.blend`](LumenCourse/blend/w04_station_v002.blend) | Saved and reopened final station for the Lecture 5 continuation. | [1:07:29](https://www.youtube.com/watch?v=pq-NTYii6w8&t=4049s) |
+| [`extras/w04_bake_low_inspection.png`](extras/w04_bake_low_inspection.png) | Full-resolution low receiver in the same view as the high source. | [38:28](https://www.youtube.com/watch?v=pq-NTYii6w8&t=2308s) |
+| [`extras/w04_bake_pair_inspection.png`](extras/w04_bake_pair_inspection.png) | Full-resolution high source showing two interior grooves and unchanged alignment. | [38:57](https://www.youtube.com/watch?v=pq-NTYii6w8&t=2337s) |
 | [`LumenCourse/renders/w04_station_preview.png`](LumenCourse/renders/w04_station_preview.png) | Full-resolution neutral companion render from the accepted final checkpoint. | Companion render |
-| [`extras/w04_silhouette.png`](extras/w04_silhouette.png) | Full-resolution camera composition inspection from the final station. | 1:08:34 |
+| [`extras/w04_silhouette.png`](extras/w04_silhouette.png) | Full-resolution camera composition inspection from the final station. | [1:08:34](https://www.youtube.com/watch?v=pq-NTYii6w8&t=4114s) |
 
 ## Catch-up checkpoints
 
@@ -45,16 +45,16 @@ Save your own copy before continuing. The time is the next narration unit after 
 
 | Checkpoint | State | Continue at |
 |---|---|---|
-| [`checkpoints/w04_checkpoint_01_terrain.blend`](checkpoints/w04_checkpoint_01_terrain.blend) | Completed terrain checkpoint. | 10:53 |
-| [`checkpoints/w04_checkpoint_02_resolution.blend`](checkpoints/w04_checkpoint_02_resolution.blend) | Voxel, dynamic topology and Multires comparison endpoint. | 20:02 |
-| [`checkpoints/w04_checkpoint_03_rock_placement.blend`](checkpoints/w04_checkpoint_03_rock_placement.blend) | Second-rock placement with platform clearance. | 27:54 |
-| [`checkpoints/w04_checkpoint_04_masking.blend`](checkpoints/w04_checkpoint_04_masking.blend) | Mask, hide and face-set checkpoint. | 33:35 |
-| [`checkpoints/w04_checkpoint_05_bake_pair.blend`](checkpoints/w04_checkpoint_05_bake_pair.blend) | Aligned bake source and receiver, deliberately excluded from the station render. | 39:42 |
-| [`checkpoints/w04_checkpoint_06_sculpt_additions.blend`](checkpoints/w04_checkpoint_06_sculpt_additions.blend) | Add Primitives, Scene Project and attribute-remesh studies. | 47:56 |
-| [`checkpoints/w04_checkpoint_07_retopology.blend`](checkpoints/w04_checkpoint_07_retopology.blend) | Projected local quad patch. | 52:35 |
-| [`checkpoints/w04_checkpoint_08_head.blend`](checkpoints/w04_checkpoint_08_head.blend) | Independent head blockout. | 57:39 |
-| [`checkpoints/w04_checkpoint_09_neutral_eyelid.blend`](checkpoints/w04_checkpoint_09_neutral_eyelid.blend) | Neutral eyelid for the later deformation study. | 1:03:20 |
-| [`checkpoints/w04_checkpoint_10_station.blend`](checkpoints/w04_checkpoint_10_station.blend) | Final station continuation. | 1:10:44 |
+| [`checkpoints/w04_checkpoint_01_terrain.blend`](checkpoints/w04_checkpoint_01_terrain.blend) | Completed terrain checkpoint. | [10:53](https://www.youtube.com/watch?v=pq-NTYii6w8&t=653s) |
+| [`checkpoints/w04_checkpoint_02_resolution.blend`](checkpoints/w04_checkpoint_02_resolution.blend) | Voxel, dynamic topology and Multires comparison endpoint. | [20:02](https://www.youtube.com/watch?v=pq-NTYii6w8&t=1202s) |
+| [`checkpoints/w04_checkpoint_03_rock_placement.blend`](checkpoints/w04_checkpoint_03_rock_placement.blend) | Second-rock placement with platform clearance. | [27:54](https://www.youtube.com/watch?v=pq-NTYii6w8&t=1674s) |
+| [`checkpoints/w04_checkpoint_04_masking.blend`](checkpoints/w04_checkpoint_04_masking.blend) | Mask, hide and face-set checkpoint. | [33:35](https://www.youtube.com/watch?v=pq-NTYii6w8&t=2015s) |
+| [`checkpoints/w04_checkpoint_05_bake_pair.blend`](checkpoints/w04_checkpoint_05_bake_pair.blend) | Aligned bake source and receiver, deliberately excluded from the station render. | [39:42](https://www.youtube.com/watch?v=pq-NTYii6w8&t=2382s) |
+| [`checkpoints/w04_checkpoint_06_sculpt_additions.blend`](checkpoints/w04_checkpoint_06_sculpt_additions.blend) | Add Primitives, Scene Project and attribute-remesh studies. | [47:56](https://www.youtube.com/watch?v=pq-NTYii6w8&t=2876s) |
+| [`checkpoints/w04_checkpoint_07_retopology.blend`](checkpoints/w04_checkpoint_07_retopology.blend) | Projected local quad patch. | [52:35](https://www.youtube.com/watch?v=pq-NTYii6w8&t=3155s) |
+| [`checkpoints/w04_checkpoint_08_head.blend`](checkpoints/w04_checkpoint_08_head.blend) | Independent head blockout. | [57:39](https://www.youtube.com/watch?v=pq-NTYii6w8&t=3459s) |
+| [`checkpoints/w04_checkpoint_09_neutral_eyelid.blend`](checkpoints/w04_checkpoint_09_neutral_eyelid.blend) | Neutral eyelid for the later deformation study. | [1:03:20](https://www.youtube.com/watch?v=pq-NTYii6w8&t=3800s) |
+| [`checkpoints/w04_checkpoint_10_station.blend`](checkpoints/w04_checkpoint_10_station.blend) | Final station continuation. | [1:10:44](https://www.youtube.com/watch?v=pq-NTYii6w8&t=4244s) |
 
 ## Inspect the saved scene
 
@@ -131,27 +131,27 @@ Saved render engine: **BLENDER_EEVEE**. Output: **3840 × 2160 at 100%**. The co
 
 ## Chapters
 
-- 0:00 Read primary form before adding surface detail
-- 3:08 Save the station and inspect the terrain footprint
-- 5:24 Choose a brush and control its first stroke
-- 8:38 Smooth deliberately and check the docking clearance
-- 10:53 Remesh a copy and compare the cost of resolution
-- 15:04 Read local density and a preserved subdivision hierarchy
-- 20:02 Establish the rock silhouette and broad planes
-- 23:14 Add a ridge and recess while keeping quiet areas
-- 25:51 Make a second silhouette and inspect the composition
-- 27:54 Protect the base and make an intentional asymmetry
-- 31:01 Distinguish masking, hidden geometry and face sets
-- 33:35 Preserve the low receiver and its aligned high copy
-- 36:32 Add high detail and compare without moving the pair
-- 39:42 Add a starting primitive inside Sculpt Mode
-- 41:57 Project a sheet toward a nearby supporting surface
-- 45:34 Inspect color attributes before and after a voxel remesh
-- 47:56 Build and project a small quad patch over the rock
-- 52:35 Block a stylized male head from simple forms
-- 57:39 Construct a neutral eyelid strip for later motion
-- 1:03:20 Return to the station and compare material roughness
-- 1:07:10 Save, reopen and identify the next task
+- [0:00](https://www.youtube.com/watch?v=pq-NTYii6w8&t=0s) Read primary form before adding surface detail
+- [3:08](https://www.youtube.com/watch?v=pq-NTYii6w8&t=188s) Save the station and inspect the terrain footprint
+- [5:24](https://www.youtube.com/watch?v=pq-NTYii6w8&t=324s) Choose a brush and control its first stroke
+- [8:38](https://www.youtube.com/watch?v=pq-NTYii6w8&t=518s) Smooth deliberately and check the docking clearance
+- [10:53](https://www.youtube.com/watch?v=pq-NTYii6w8&t=653s) Remesh a copy and compare the cost of resolution
+- [15:04](https://www.youtube.com/watch?v=pq-NTYii6w8&t=904s) Read local density and a preserved subdivision hierarchy
+- [20:02](https://www.youtube.com/watch?v=pq-NTYii6w8&t=1202s) Establish the rock silhouette and broad planes
+- [23:14](https://www.youtube.com/watch?v=pq-NTYii6w8&t=1394s) Add a ridge and recess while keeping quiet areas
+- [25:51](https://www.youtube.com/watch?v=pq-NTYii6w8&t=1551s) Make a second silhouette and inspect the composition
+- [27:54](https://www.youtube.com/watch?v=pq-NTYii6w8&t=1674s) Protect the base and make an intentional asymmetry
+- [31:01](https://www.youtube.com/watch?v=pq-NTYii6w8&t=1861s) Distinguish masking, hidden geometry and face sets
+- [33:35](https://www.youtube.com/watch?v=pq-NTYii6w8&t=2015s) Preserve the low receiver and its aligned high copy
+- [36:32](https://www.youtube.com/watch?v=pq-NTYii6w8&t=2192s) Add high detail and compare without moving the pair
+- [39:42](https://www.youtube.com/watch?v=pq-NTYii6w8&t=2382s) Add a starting primitive inside Sculpt Mode
+- [41:57](https://www.youtube.com/watch?v=pq-NTYii6w8&t=2517s) Project a sheet toward a nearby supporting surface
+- [45:34](https://www.youtube.com/watch?v=pq-NTYii6w8&t=2734s) Inspect color attributes before and after a voxel remesh
+- [47:56](https://www.youtube.com/watch?v=pq-NTYii6w8&t=2876s) Build and project a small quad patch over the rock
+- [52:35](https://www.youtube.com/watch?v=pq-NTYii6w8&t=3155s) Block a stylized male head from simple forms
+- [57:39](https://www.youtube.com/watch?v=pq-NTYii6w8&t=3459s) Construct a neutral eyelid strip for later motion
+- [1:03:20](https://www.youtube.com/watch?v=pq-NTYii6w8&t=3800s) Return to the station and compare material roughness
+- [1:07:10](https://www.youtube.com/watch?v=pq-NTYii6w8&t=4030s) Save, reopen and identify the next task
 
 ## Assets and continuation
 
