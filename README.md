@@ -19,7 +19,7 @@ Each lecture has its own folder with the Blender files you create in the video, 
 | 5 | Materials, Procedural Shaders & Surface Behavior | [Watch](https://www.youtube.com/watch?v=yW_8-3yHAjU) | [week05](week05/) |
 | 6 | UV Unwrapping, Texture Painting & Normal Baking | [Watch](https://www.youtube.com/watch?v=SHUYYPLoz8M) | [week06](week06/) |
 | 7 | Cameras, Lighting, EEVEE, Cycles & Performance | [Watch](https://www.youtube.com/watch?v=03T-CArVSW4) | [week07](week07/) |
-| 8 | Asset Libraries & Geometry Nodes Scattering | Planned | Planned |
+| 8 | Asset Libraries & Geometry Nodes Scattering | Planned | [week08](week08/) |
 | 9 | Procedural Modeling & Audio-Reactive Geometry Nodes | Planned | Planned |
 | 10 | Robot Rigging, Weights & Constraints | Planned | Planned |
 | 11 | Keyframes, Graph Editor & a 10-Second Animation | Planned | Planned |
