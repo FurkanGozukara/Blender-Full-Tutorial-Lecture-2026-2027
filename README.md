@@ -21,7 +21,7 @@ Each lecture has its own folder with the Blender files you create in the video, 
 | 7 | Cameras, Lighting, EEVEE, Cycles & Performance | [Watch](https://www.youtube.com/watch?v=03T-CArVSW4) | [week07](week07/) |
 | 8 | Asset Libraries & Geometry Nodes Scattering | Planned | [week08](week08/) |
 | 9 | Procedural Modeling & Audio-Reactive Geometry Nodes | Planned | Planned |
-| 10 | Robot Rigging, Weights & Constraints | Planned | Planned |
+| 10 | Robot Rigging, Weights & Constraints | Planned | [week10](week10/) |
 | 11 | Keyframes, Graph Editor & a 10-Second Animation | Planned | Planned |
 | 12 | Cloth Simulation, Caching & Node-Based Physics | Planned | Planned |
 | 13 | Compositing, Render Passes & Grease Pencil | Planned | Planned |
