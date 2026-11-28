@@ -8,7 +8,7 @@ The lecture is 43:50. Its video link will be added when published. [Full course 
 
 ## Files
 
-The files were made with Blender 5.2.2 LTS; open them with Blender 5.2 or newer. Keep the folders together so the sound and the image paths resolve. Times identify the beginning of the save instruction; the saved file includes the completed action.
+The files were made with Blender 5.2.2 LTS; open them with Blender 5.2 or newer. The signal sound is packed into every .blend file, so a single downloaded file also opens; keep the folders together so the image paths resolve. Times identify the beginning of the save instruction; the saved file includes the completed action.
 
 | File | What it is | Video |
 |---|---|---|
